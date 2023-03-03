@@ -1,0 +1,122 @@
+MODULE Module1
+        CONST robtarget BAcer:=[[-150,0,0],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B0:=[[0,0,0],[1,0,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B1:=[[0,0,100],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B2:=[[0,-25,100],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B3:=[[0,-50,75],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B4:=[[0,-25,50],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B5:=[[0,-50,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B6:=[[0,-25,0],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget JAcer:=[[-150,-100,100],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J0:=[[0,-100,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J1:=[[0,-150,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J2:=[[0,-150,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J3:=[[0,-125,0],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J4:=[[0,-100,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget JSal_10:=[[-150,-100,25],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget GAcer:=[[-150,-250,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G0:=[[0,-250,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G1:=[[0,-200,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G2:=[[0,-200,0],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G3:=[[0,-250,0],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G4:=[[0,-250,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G5:=[[0,-225,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget GSal:=[[-150,-225,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST jointtarget HOME:=[[0,0,0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST jointtarget Intermedio:=[[39.820347786,7.402611956,17.639279428,-47.788627471,37.688106161,71.623214618],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+!***********************************************************
+    !
+    ! Module:  Module1
+    !
+    ! Description:
+    !   <Insert description here>
+    !
+    ! Author: user
+    !
+    ! Version: 1.0
+    !
+    !***********************************************************
+    
+    
+    !***********************************************************
+    !
+    ! Procedure main
+    !
+    !   This is the entry point of your program
+    !
+    !***********************************************************
+    PROC main()
+        HomeP;
+        AcerInter;
+        AcerYLetras;
+        AcerInter;
+        HomeP;
+        
+    ENDPROC
+    PROC Path_10()
+        MoveL BAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B1,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B2,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B3,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B4,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B5,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B6,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL BAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL JAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J1,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J2,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J3,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J4,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL JSal_10,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL GAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G1,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G2,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G3,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G4,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G5,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL GSal,v1000,z100,TMarcador\WObj:=Tablero;
+        Path_20;
+        Path_20;
+        Path_20;
+    ENDPROC
+    PROC Path_20()
+        MoveAbsJ HOME,v1000,z100,TMarcador\WObj:=Tablero;
+    ENDPROC
+    PROC AcerYLetras()
+        MoveL BAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B1,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B2,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B3,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B4,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B5,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B6,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL BAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL JAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J1,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J2,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J3,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J4,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL JSal_10,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL GAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G1,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G2,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G3,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G4,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G5,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL GSal,v1000,z100,TMarcador\WObj:=Tablero;
+    ENDPROC
+    PROC HomeP()
+        MoveAbsJ HOME,v1000,z100,TMarcador\WObj:=Tablero;
+    ENDPROC
+    PROC AcerInter()
+        MoveAbsJ Intermedio,v1000,z100,TMarcador\WObj:=Tablero;
+    ENDPROC
+ENDMODULE

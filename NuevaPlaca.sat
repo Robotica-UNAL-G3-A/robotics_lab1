@@ -1,0 +1,3616 @@
+700 0 1 0           
+30 Autodesk Translation Framework 20 ASM 228.3.1.65535 NT 24 Thu Mar  9 09:03:13 2023 
+1 9.999999999999999547e-07 1.000000000000000036e-10 
+body $1 -1 $-1 $2 $-1 $3 #
+rgb_color-st-attrib $-1 -1 $4 $-1 $0 0.7490196078431372584 0.7490196078431372584 0.7490196078431372584 #
+lump $-1 -1 $-1 $-1 $5 $0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+DXID-attrib $-1 -1 $-1 $1 $0 @10 ASM ENTITY @91 PART1|:|CB3F3F3ACEE8E4CD53F017F50962C4B9728A95D4|:|DA4B9237BACCCDF19C0760CAB7AEC4A8359010B0 #
+shell $-1 -1 $-1 $-1 $-1 $6 $-1 $2 #
+face $7 -1 $-1 $8 $9 $5 $-1 $10 forward single #
+DXID-attrib $-1 -1 $-1 $-1 $6 @10 ASM ENTITY @36 acd4282f-30b8-4b8f-95a1-e6a636a0babb #
+face $11 -1 $-1 $12 $13 $5 $-1 $14 reversed single #
+loop $-1 -1 $-1 $-1 $15 $6 #
+plane-surface $-1 -1 $-1 -3.552713678800500929e-14 15 5.329070518200751394e-14 0 1 0 0 0 10 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $8 @10 ASM ENTITY @36 7060a9a2-4566-4fde-9cd0-0fe23df0f3e8 #
+face $16 -1 $-1 $17 $18 $5 $-1 $19 reversed single #
+loop $-1 -1 $-1 $-1 $20 $8 #
+spline-surface $-1 -1 $-1 forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	1.417583735080834018 10 13.09543303476468168 
+	1.417583735080834018 10 20.97225637350049965 
+	-8.209644790040719897 10 29.52979284027521345 
+	-16.32957996021900371 10 29.52979284027521345 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I #
+coedge $-1 -1 $-1 $21 $22 $23 $24 reversed $9 $-1 #
+DXID-attrib $-1 -1 $-1 $-1 $12 @10 ASM ENTITY @36 555f05cf-2a7f-415c-a1a6-c13425504167 #
+face $25 -1 $-1 $26 $27 $5 $-1 $28 reversed single #
+loop $-1 -1 $-1 $-1 $29 $12 #
+plane-surface $-1 -1 $-1 1.417583735080834018 10 -9.100677175932245788 -1 0 0 0 0 10 forward_v I I I I #
+coedge $-1 -1 $-1 $30 $31 $32 $33 reversed $13 $34 #
+coedge $-1 -1 $-1 $35 $15 $36 $37 reversed $9 $-1 #
+coedge $-1 -1 $-1 $15 $38 $39 $40 reversed $9 $-1 #
+coedge $-1 -1 $-1 $31 $30 $15 $24 forward $13 $41 #
+edge $-1 -1 $-1 $42 0 $43 2 $15 $44 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $17 @10 ASM ENTITY @36 4a62c02b-af5d-4328-a23d-b9b2f2fd364d #
+face $45 -1 $-1 $46 $47 $5 $-1 $48 reversed single #
+loop $-1 -1 $-1 $-1 $49 $17 #
+plane-surface $-1 -1 $-1 -8.914669101223866576 10 -31.2967873866291697 0 0 1 10 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $50 $51 $52 $53 reversed $18 $-1 #
+coedge $-1 -1 $-1 $23 $20 $51 $54 forward $13 $55 #
+coedge $-1 -1 $-1 $20 $23 $56 $57 reversed $13 $58 #
+coedge $-1 -1 $-1 $59 $52 $20 $33 forward $60 $-1 #
+edge $-1 -1 $-1 $61 0 $62 2 $32 $63 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	6.588914449401779164e-15 
+	spline reversed { ref 0 } I I I I 
+	} 0 0 #
+coedge $-1 -1 $-1 $64 $21 $65 $66 reversed $9 $-1 #
+coedge $-1 -1 $-1 $51 $50 $21 $37 forward $18 $-1 #
+edge $-1 -1 $-1 $67 0 $42 4.439222042139384428 $21 $68 forward @7 unknown #
+coedge $-1 -1 $-1 $22 $69 $70 $71 reversed $9 $-1 #
+coedge $-1 -1 $-1 $72 $56 $22 $40 forward $73 $74 #
+edge $-1 -1 $-1 $43 0 $75 2 $22 $76 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	4.529709940470638369e-15 
+	spline reversed { ref 0 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $24 $77 #
+vertex $-1 -1 $-1 $24 $78 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	1.417583735080834018 15 13.09543303476468168 
+	1.417583735080834018 15 20.97225637350049965 
+	-8.209644790040719897 15 29.52979284027521345 
+	-16.32957996021900371 15 29.52979284027521345 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+DXID-attrib $-1 -1 $-1 $-1 $26 @10 ASM ENTITY @36 87152ccf-40b8-43d7-8fac-a6f22007620d #
+face $79 -1 $-1 $80 $81 $5 $-1 $82 reversed single #
+loop $-1 -1 $-1 $-1 $83 $26 #
+plane-surface $-1 -1 $-1 -19.24692193752856895 10 -28.1120223947328931 1 0 0 0 0 -10 forward_v I I I I #
+coedge $-1 -1 $-1 $84 $85 $86 $87 reversed $27 $-1 #
+coedge $-1 -1 $-1 $36 $29 $85 $88 forward $18 $-1 #
+coedge $-1 -1 $-1 $29 $36 $30 $54 reversed $18 $-1 #
+coedge $-1 -1 $-1 $32 $86 $29 $53 forward $60 $-1 #
+edge $-1 -1 $-1 $89 -2.674644879866307168 $61 1.764577162273077704 $52 $90 forward @7 unknown #
+edge $-1 -1 $-1 $61 0 $42 0.5 $30 $91 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 0 } I I I I 
+	} 0 0 #
+coedge $-1 -1 $-1 $39 $92 $31 $57 forward $73 $93 #
+edge $-1 -1 $-1 $62 0 $43 0.5 $31 $94 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	1.999999999999999778 0 
+	2.264854970235319974e-15 
+	spline reversed { ref 0 } I I I I 
+	} 0 0 #
+coedge $-1 -1 $-1 $95 $32 $92 $96 forward $60 $-1 #
+loop $-1 -1 $-1 $97 $32 $98 #
+vertex $-1 -1 $-1 $33 $99 #
+vertex $-1 -1 $-1 $33 $100 #
+intcurve-curve $-1 -1 $-1 forward { ref 1 } F 0 F 2 #
+coedge $-1 -1 $-1 $101 $35 $102 $103 reversed $9 $-1 #
+coedge $-1 -1 $-1 $85 $84 $35 $66 forward $27 $-1 #
+edge $-1 -1 $-1 $104 0 $67 2.066450567260940119 $35 $105 forward @7 unknown #
+vertex $-1 -1 $-1 $37 $106 #
+straight-curve $-1 -1 $-1 1.417583735080834018 15 -31.2967873866291697 0 0 10 I I #
+coedge $-1 -1 $-1 $38 $107 $108 $109 reversed $9 $-1 #
+coedge $-1 -1 $-1 $110 $111 $38 $71 forward $112 $-1 #
+edge $-1 -1 $-1 $75 0 $113 0.7682333873581845829 $38 $114 forward @7 unknown #
+coedge $-1 -1 $-1 $92 $39 $111 $115 reversed $73 $116 #
+loop $-1 -1 $-1 $-1 $92 $117 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	3.202224441684729398e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-16.32957996021900371 10 29.52979284027521345 
+	-18.27447461175871268 10 29.52979284027521345 
+	-24.74124932812824085 10 28.84907971223631762 
+	-26.92925581111041211 10 28.36285604935138949 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $71 $118 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-16.32957996021900371 15 29.52979284027521345 
+	-18.27447461175871268 15 29.52979284027521345 
+	-24.74124932812824085 15 28.84907971223631762 
+	-26.92925581111041211 15 28.36285604935138949 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 1.417583735080834018 15 13.09543303476468168 #
+point $-1 -1 $-1 -16.32957996021900016 15 29.5297928402752099 #
+DXID-attrib $-1 -1 $-1 $-1 $46 @10 ASM ENTITY @36 e902e8b3-8e21-4633-b431-438cc3c871a9 #
+face $119 -1 $-1 $120 $121 $5 $-1 $122 reversed single #
+loop $-1 -1 $-1 $-1 $123 $46 #
+plane-surface $-1 -1 $-1 -12.9017031368802666 10 -24.92725740283662006 0 0 -1 -10 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $124 $125 $126 $127 reversed $47 $-1 #
+coedge $-1 -1 $-1 $65 $49 $125 $128 forward $27 $-1 #
+coedge $-1 -1 $-1 $49 $65 $50 $88 reversed $27 $-1 #
+coedge $-1 -1 $-1 $52 $126 $49 $87 forward $60 $-1 #
+edge $-1 -1 $-1 $129 -1.478958738691661612 $89 0.5874918285692785069 $86 $130 forward @7 unknown #
+edge $-1 -1 $-1 $89 0 $67 0.5 $50 $131 forward @7 unknown #
+vertex $-1 -1 $-1 $53 $132 #
+straight-curve $-1 -1 $-1 1.417583735080834018 10 -4.550338587966096249 0 0 10 I I #
+straight-curve $-1 -1 $-1 1.417583735080834018 10 13.09543303476468168 0 10 0 F 0 F 0.5 #
+coedge $-1 -1 $-1 $56 $72 $59 $96 reversed $73 $133 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	2.264854970235309718e-15 
+	spline reversed { ref 8 } I I I I 
+	} 0 0 #
+straight-curve $-1 -1 $-1 -16.32957996021900016 10 29.5297928402752099 0 10 0 F 0 F 0.5 #
+coedge $-1 -1 $-1 $134 $59 $135 $136 forward $60 $-1 #
+edge $-1 -1 $-1 $62 0 $137 2 $59 $138 forward @7 unknown #
+loop $-1 -1 $-1 $139 $140 $98 #
+face $141 -1 $-1 $142 $60 $5 $-1 $143 forward single #
+point $-1 -1 $-1 1.417583735080834018 10 13.09543303476468168 #
+point $-1 -1 $-1 -16.32957996021900016 10 29.5297928402752099 #
+coedge $-1 -1 $-1 $144 $64 $145 $146 reversed $9 $-1 #
+coedge $-1 -1 $-1 $125 $124 $64 $103 forward $47 $-1 #
+edge $-1 -1 $-1 $147 0 $104 0.6369529983792547867 $64 $148 forward @7 unknown #
+vertex $-1 -1 $-1 $66 $149 #
+straight-curve $-1 -1 $-1 -19.24692193752856895 15 -31.2967873866291697 10 0 0 I I #
+point $-1 -1 $-1 1.417583735080834018 15 -31.2967873866291697 #
+coedge $-1 -1 $-1 $69 $150 $151 $152 reversed $9 $-1 #
+coedge $-1 -1 $-1 $153 $154 $69 $109 forward $155 $-1 #
+edge $-1 -1 $-1 $113 0 $156 0.0437601296596432654 $69 $157 forward @7 unknown #
+coedge $-1 -1 $-1 $135 $70 $154 $158 reversed $112 $-1 #
+coedge $-1 -1 $-1 $70 $135 $72 $115 forward $112 $-1 #
+loop $-1 -1 $-1 $-1 $135 $159 #
+vertex $-1 -1 $-1 $109 $160 #
+straight-curve $-1 -1 $-1 -26.92925581111041211 15 28.36285604935138949 0 0 -10 I I #
+edge $-1 -1 $-1 $137 0 $75 0.5 $111 $161 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 8 } I I I I 
+	} 0 0 #
+face $162 -1 $-1 $163 $73 $5 $-1 $164 reversed single #
+point $-1 -1 $-1 -26.92925581111041211 15 28.36285604935138949 #
+DXID-attrib $-1 -1 $-1 $-1 $80 @10 ASM ENTITY @36 2f56e492-74b6-4541-8d21-2f6f7aefda1a #
+face $165 -1 $-1 $166 $167 $5 $-1 $168 reversed single #
+loop $-1 -1 $-1 $-1 $169 $80 #
+plane-surface $-1 -1 $-1 -6.556484336231966914 10 -7.44751672212349014 1 0 0 0 0 -10 forward_v I I I I #
+coedge $-1 -1 $-1 $170 $171 $172 $173 reversed $81 $-1 #
+coedge $-1 -1 $-1 $102 $83 $171 $174 forward $47 $-1 #
+coedge $-1 -1 $-1 $83 $102 $84 $128 reversed $47 $-1 #
+coedge $-1 -1 $-1 $86 $172 $83 $127 forward $60 $-1 #
+edge $-1 -1 $-1 $175 1.087124620547019971 $129 1.724077618926274758 $126 $176 forward @7 unknown #
+edge $-1 -1 $-1 $129 0 $104 0.5 $84 $177 forward @7 unknown #
+vertex $-1 -1 $-1 $87 $178 #
+straight-curve $-1 -1 $-1 -4.457334550611951052 10 -31.2967873866291697 10 0 0 I I #
+straight-curve $-1 -1 $-1 1.417583735080834018 10 -31.2967873866291697 0 10 0 I I #
+point $-1 -1 $-1 1.417583735080834018 10 -31.2967873866291697 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	1.11022302462515654e-16 0 
+	5.2979437305470762e-15 
+	spline reversed { ref 8 } I I I I 
+	} 0 0 #
+coedge $-1 -1 $-1 $179 $95 $180 $181 forward $60 $-1 #
+coedge $-1 -1 $-1 $111 $110 $95 $136 reversed $112 $-1 #
+edge $-1 -1 $-1 $137 -1.610201149307112889 $182 -0.841967761948928306 $95 $183 forward @7 unknown #
+vertex $-1 -1 $-1 $136 $184 #
+intcurve-curve $-1 -1 $-1 forward { ref 9 } F 0 F 2 #
+loop $-1 -1 $-1 $185 $186 $98 #
+coedge $-1 -1 $-1 $187 $188 $189 $190 forward $97 $-1 #
+DXID-attrib $-1 -1 $-1 $-1 $98 @10 ASM ENTITY @36 67062e9f-1edb-40ff-befb-341505cac392 #
+face $191 -1 $-1 $192 $193 $5 $-1 $143 forward single #
+plane-surface $-1 -1 $-1 -3.552713678800500929e-14 10 5.329070518200751394e-14 0 1 0 0 0 10 forward_v I I I I #
+coedge $-1 -1 $-1 $194 $101 $195 $196 reversed $9 $-1 #
+coedge $-1 -1 $-1 $171 $170 $101 $146 forward $81 $-1 #
+edge $-1 -1 $-1 $197 0 $147 1.269043760129660026 $101 $198 forward @7 unknown #
+vertex $-1 -1 $-1 $103 $199 #
+straight-curve $-1 -1 $-1 -19.24692193752856895 15 -24.92725740283662006 0 0 -10 I I #
+point $-1 -1 $-1 -19.24692193752856895 15 -31.2967873866291697 #
+coedge $-1 -1 $-1 $107 $194 $200 $201 reversed $9 $-1 #
+coedge $-1 -1 $-1 $202 $203 $107 $152 forward $204 $205 #
+edge $-1 -1 $-1 $156 0 $206 2 $107 $207 forward @7 unknown #
+coedge $-1 -1 $-1 $180 $108 $203 $208 reversed $155 $-1 #
+coedge $-1 -1 $-1 $108 $180 $110 $158 forward $155 $-1 #
+loop $-1 -1 $-1 $-1 $180 $209 #
+vertex $-1 -1 $-1 $152 $210 #
+straight-curve $-1 -1 $-1 -26.92925581111041211 15 20.68052217576954632 10 0 0 I I #
+edge $-1 -1 $-1 $182 0 $113 0.5 $154 $211 forward @7 unknown #
+face $212 -1 $-1 $117 $112 $5 $-1 $213 reversed single #
+point $-1 -1 $-1 -26.92925581111041211 15 20.68052217576954632 #
+straight-curve $-1 -1 $-1 -26.92925581111041211 10 28.36285604935138949 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $117 @10 ASM ENTITY @36 d521d2e8-9f40-4e57-ade7-0bcf7576757b #
+face $214 -1 $-1 $215 $216 $5 $-1 $217 reversed single #
+spline-surface $-1 -1 $-1 forward { ref 8 } I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $120 @10 ASM ENTITY @36 c674cff6-f397-419d-81f8-227565deada3 #
+face $218 -1 $-1 $219 $220 $5 $-1 $221 reversed single #
+loop $-1 -1 $-1 $-1 $222 $120 #
+spline-surface $-1 -1 $-1 forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-8.25826715632921271 10 19.36771828598023859 
+	-7.13995273169388156 10 17.76318019845998109 
+	-6.556484336231966914 10 13.09543303476468168 
+	-6.556484336231966914 10 10.03222395858963978 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I #
+coedge $-1 -1 $-1 $223 $224 $225 $226 reversed $121 $-1 #
+coedge $-1 -1 $-1 $145 $123 $224 $227 forward $81 $-1 #
+coedge $-1 -1 $-1 $123 $145 $124 $174 reversed $81 $-1 #
+coedge $-1 -1 $-1 $126 $225 $123 $173 forward $60 $-1 #
+edge $-1 -1 $-1 $228 0.01056327677918156294 $175 1.2796070369088417 $172 $229 forward @7 unknown #
+edge $-1 -1 $-1 $175 0 $147 0.5 $124 $230 forward @7 unknown #
+vertex $-1 -1 $-1 $127 $231 #
+straight-curve $-1 -1 $-1 -19.24692193752856895 10 -14.05601119736641991 0 0 -10 I I #
+straight-curve $-1 -1 $-1 -19.24692193752856895 10 -31.2967873866291697 0 10 0 I I #
+point $-1 -1 $-1 -19.24692193752856895 10 -31.2967873866291697 #
+coedge $-1 -1 $-1 $232 $134 $233 $234 forward $60 $-1 #
+coedge $-1 -1 $-1 $154 $153 $134 $181 reversed $155 $-1 #
+edge $-1 -1 $-1 $182 -1.357402822970429579 $235 -1.313642693310786314 $134 $236 forward @7 unknown #
+vertex $-1 -1 $-1 $181 $237 #
+straight-curve $-1 -1 $-1 -26.92925581111041211 10 12.26084455628026149 0 0 -10 I I #
+point $-1 -1 $-1 -26.92925581111041211 10 28.36285604935138949 #
+loop $-1 -1 $-1 $-1 $238 $98 #
+coedge $-1 -1 $-1 $239 $240 $241 $242 forward $139 $-1 #
+coedge $-1 -1 $-1 $243 $140 $244 $245 forward $97 $-1 #
+coedge $-1 -1 $-1 $140 $246 $247 $248 forward $97 $-1 #
+coedge $-1 -1 $-1 $249 $250 $140 $190 reversed $251 $252 #
+edge $-1 -1 $-1 $253 0 $254 2 $140 $255 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $142 @10 ASM ENTITY @36 bf0a0c09-be18-46e3-9027-a6f5e17a59ba #
+face $256 -1 $-1 $257 $258 $5 $-1 $259 forward single #
+loop $-1 -1 $-1 $-1 $260 $142 #
+coedge $-1 -1 $-1 $150 $144 $261 $262 reversed $9 $-1 #
+coedge $-1 -1 $-1 $224 $223 $144 $196 forward $121 $-1 #
+edge $-1 -1 $-1 $263 0 $197 3.495948136142625895 $144 $264 forward @7 unknown #
+vertex $-1 -1 $-1 $146 $265 #
+straight-curve $-1 -1 $-1 -6.556484336231966914 15 -24.92725740283662006 -10 0 0 I I #
+point $-1 -1 $-1 -19.24692193752856895 15 -24.92725740283662006 #
+coedge $-1 -1 $-1 $266 $267 $150 $201 forward $220 $268 #
+edge $-1 -1 $-1 $206 0 $269 2 $150 $270 forward @7 unknown #
+coedge $-1 -1 $-1 $233 $151 $267 $271 reversed $204 $272 #
+coedge $-1 -1 $-1 $151 $233 $153 $208 forward $204 $273 #
+loop $-1 -1 $-1 $-1 $233 $219 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	1.999999999999999556 0.5 
+	4.529709940470638369e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-26.49165451451398212 10 20.68052217576954632 
+	-24.83849406070522647 10 21.26399057123145298 
+	-19.92763506556746478 10 22.62541682730925174 
+	-17.39927201856584205 10 22.62541682730925174 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $201 $274 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-26.49165451451398212 15 20.68052217576954632 
+	-24.83849406070522647 15 21.26399057123145298 
+	-19.92763506556746478 15 22.62541682730925174 
+	-17.39927201856584205 15 22.62541682730925174 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+edge $-1 -1 $-1 $235 0 $156 0.5 $203 $275 forward @7 unknown #
+face $276 -1 $-1 $159 $155 $5 $-1 $277 reversed single #
+point $-1 -1 $-1 -26.49165451451398212 15 20.68052217576954632 #
+straight-curve $-1 -1 $-1 -26.92925581111041211 10 20.68052217576954632 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $159 @10 ASM ENTITY @36 dd97762a-0fdd-413c-a7ce-ffaddd2c2974 #
+plane-surface $-1 -1 $-1 -26.92925581111041211 10 24.52168911256046968 1 0 0 0 0 -10 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $163 @10 ASM ENTITY @36 996eb27d-4509-45d5-81d8-6585354c7d7d #
+face $278 -1 $-1 $279 $280 $5 $-1 $281 reversed single #
+loop $-1 -1 $-1 $-1 $282 $163 #
+spline-surface $-1 -1 $-1 forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-66.02163830705855219 10 -16.66145513379285958 
+	-66.02163830705855219 10 -18.80083925048653626 
+	-67.48030929571334013 10 -22.00991542552706193 
+	-69.08484738323359409 10 -22.9337403850084165 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $166 @10 ASM ENTITY @36 acc5418f-54bd-47b1-9121-2bc0e61010e0 #
+face $283 -1 $-1 $209 $204 $5 $-1 $284 reversed single #
+loop $-1 -1 $-1 $-1 $285 $166 #
+spline-surface $-1 -1 $-1 forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-17.39927201856584205 10 22.62541682730925174 
+	-13.7039721806403989 10 22.62541682730925174 
+	-9.279336848387560011 10 20.92363400721200861 
+	-8.25826715632921271 10 19.36771828598023859 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I #
+coedge $-1 -1 $-1 $286 $287 $288 $289 reversed $167 $290 #
+coedge $-1 -1 $-1 $195 $169 $287 $291 forward $121 $-1 #
+coedge $-1 -1 $-1 $169 $195 $170 $227 reversed $121 $-1 #
+coedge $-1 -1 $-1 $172 $288 $169 $226 forward $60 $-1 #
+edge $-1 -1 $-1 $292 -1.375598231965135643 $228 2.120349904177490252 $225 $293 forward @7 unknown #
+edge $-1 -1 $-1 $228 0 $197 0.5 $170 $294 forward @7 unknown #
+vertex $-1 -1 $-1 $173 $295 #
+straight-curve $-1 -1 $-1 -6.450851568440151063 10 -24.92725740283662006 -10 0 0 I I #
+straight-curve $-1 -1 $-1 -19.24692193752856895 10 -24.92725740283662006 0 10 0 I I #
+point $-1 -1 $-1 -19.24692193752856895 10 -24.92725740283662006 #
+coedge $-1 -1 $-1 $288 $179 $285 $296 forward $60 $-1 #
+coedge $-1 -1 $-1 $203 $202 $179 $234 reversed $204 $297 #
+edge $-1 -1 $-1 $235 0 $298 2 $179 $299 forward @7 unknown #
+vertex $-1 -1 $-1 $234 $300 #
+straight-curve $-1 -1 $-1 -13.35522758140611721 10 20.68052217576954632 10 0 0 I I #
+point $-1 -1 $-1 -26.92925581111041211 10 20.68052217576954632 #
+coedge $-1 -1 $-1 $301 $302 $303 $304 forward $185 $-1 #
+coedge $-1 -1 $-1 $305 $186 $306 $307 forward $139 $-1 #
+coedge $-1 -1 $-1 $186 $308 $309 $310 forward $139 $-1 #
+coedge $-1 -1 $-1 $311 $312 $186 $242 reversed $313 $314 #
+edge $-1 -1 $-1 $315 0 $316 2 $186 $317 forward @7 unknown #
+coedge $-1 -1 $-1 $318 $187 $319 $320 forward $97 $-1 #
+coedge $-1 -1 $-1 $321 $322 $187 $245 reversed $323 $324 #
+edge $-1 -1 $-1 $254 0 $325 2 $187 $326 forward @7 unknown #
+coedge $-1 -1 $-1 $188 $327 $328 $329 forward $97 $-1 #
+coedge $-1 -1 $-1 $330 $331 $188 $248 reversed $332 $333 #
+edge $-1 -1 $-1 $334 0 $253 2 $188 $335 forward @7 unknown #
+coedge $-1 -1 $-1 $336 $189 $331 $337 forward $251 $338 #
+coedge $-1 -1 $-1 $189 $336 $321 $339 reversed $251 $340 #
+loop $-1 -1 $-1 $-1 $189 $341 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	1.665334536937734811e-16 0 
+	3.66177403902018151e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-54.88711642699372106 10 10.27533579003210207 
+	-54.88711642699372106 10 14.74859348857343377 
+	-58.29068206718821443 10 21.60434713525090444 
+	-61.11077931192078694 10 23.8409759845215703 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $190 $342 #
+vertex $-1 -1 $-1 $190 $343 #
+intcurve-curve $-1 -1 $-1 forward { ref 26 } F 0 F 2 #
+DXID-attrib $-1 -1 $-1 $-1 $192 @10 ASM ENTITY @36 e911d647-6b85-44e6-a996-5016ee29e27d #
+face $344 -1 $-1 $345 $346 $5 $-1 $347 forward single #
+loop $-1 -1 $-1 $-1 $348 $192 #
+plane-surface $-1 -1 $-1 -125 0 80.00000000000007105 1.421085471520200648e-16 0 1 10 0 -1.421085471520200648e-15 forward_v I I I I #
+coedge $-1 -1 $-1 $349 $350 $351 $352 forward $193 $-1 #
+coedge $-1 -1 $-1 $287 $286 $194 $262 forward $167 $353 #
+edge $-1 -1 $-1 $269 0 $263 2 $194 $354 forward @7 unknown #
+vertex $-1 -1 $-1 $196 $355 #
+straight-curve $-1 -1 $-1 -6.556484336231966914 15 10.03222395858963978 0 0 -10 I I #
+point $-1 -1 $-1 -6.556484336231966914 15 -24.92725740283662006 #
+coedge $-1 -1 $-1 $285 $200 $286 $356 reversed $220 $357 #
+coedge $-1 -1 $-1 $200 $285 $202 $271 forward $220 $358 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	5.2628380213871343e-15 
+	spline reversed { ref 22 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $262 $359 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-17.39927201856584205 15 22.62541682730925174 
+	-13.7039721806403989 15 22.62541682730925174 
+	-9.279336848387560011 15 20.92363400721200861 
+	-8.25826715632921271 15 19.36771828598023859 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+edge $-1 -1 $-1 $298 0 $206 0.5 $267 $360 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	2.264854970235319185e-15 
+	spline reversed { ref 17 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 17 } I I I I 
+	} 0 0 #
+point $-1 -1 $-1 -17.39927201856584205 15 22.62541682730925174 #
+straight-curve $-1 -1 $-1 -26.49165451451398212 10 20.68052217576954632 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $209 @10 ASM ENTITY @36 bf602cde-ec15-4f1d-8836-fe5e93634467 #
+plane-surface $-1 -1 $-1 -26.71045516281219889 10 20.68052217576954632 0 0 1 10 0 0 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $215 @10 ASM ENTITY @36 ddd797ca-759f-4af7-8618-dc32b1dd6f65 #
+face $361 -1 $-1 $362 $363 $5 $-1 $364 forward single #
+loop $-1 -1 $-1 $-1 $365 $215 #
+spline-surface $-1 -1 $-1 forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-69.08484738323359409 10 -22.9337403850084165 
+	-71.02974203477330661 10 -24.00343244335525483 
+	-75.74611156475710061 10 -24.48965610624018296 
+	-79.97625743185595582 10 -24.48965610624018296 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I #
+coedge $-1 -1 $-1 $366 $367 $368 $369 reversed $216 $370 #
+DXID-attrib $-1 -1 $-1 $-1 $219 @10 ASM ENTITY @36 bee8056e-75e7-46de-b7aa-0fe98780bf47 #
+spline-surface $-1 -1 $-1 forward { ref 17 } I I I I #
+coedge $-1 -1 $-1 $267 $266 $232 $296 reversed $220 $371 #
+coedge $-1 -1 $-1 $261 $222 $266 $356 forward $167 $372 #
+coedge $-1 -1 $-1 $222 $261 $223 $291 reversed $167 $373 #
+coedge $-1 -1 $-1 $225 $232 $222 $289 forward $60 $-1 #
+edge $-1 -1 $-1 $374 0 $292 2 $288 $375 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	4.617578605145075306e-15 
+	spline reversed { ref 14 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $292 0 $263 0.5 $223 $376 forward @7 unknown #
+vertex $-1 -1 $-1 $226 $377 #
+straight-curve $-1 -1 $-1 -6.556484336231966914 10 -3.723758361061718425 0 0 -10 I I #
+straight-curve $-1 -1 $-1 -6.556484336231966914 10 -24.92725740283662006 0 10 0 I I #
+point $-1 -1 $-1 -6.556484336231966914 10 -24.92725740283662006 #
+edge $-1 -1 $-1 $298 0 $374 2 $232 $378 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	4.52308134881117782e-15 
+	spline reversed { ref 17 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $296 $379 #
+intcurve-curve $-1 -1 $-1 forward { ref 18 } F 0 F 2 #
+point $-1 -1 $-1 -26.49165451451398212 10 20.68052217576954632 #
+coedge $-1 -1 $-1 $380 $238 $381 $382 forward $185 $-1 #
+coedge $-1 -1 $-1 $238 $380 $383 $384 forward $185 $-1 #
+coedge $-1 -1 $-1 $385 $386 $238 $304 reversed $387 $-1 #
+edge $388 -1 $-1 $389 0 $390 16 $303 $391 forward @7 unknown #
+coedge $-1 -1 $-1 $392 $239 $393 $394 forward $139 $-1 #
+coedge $-1 -1 $-1 $395 $396 $239 $307 reversed $397 $398 #
+edge $-1 -1 $-1 $316 0 $399 2 $239 $400 forward @7 unknown #
+coedge $-1 -1 $-1 $240 $401 $402 $403 forward $139 $-1 #
+coedge $-1 -1 $-1 $404 $405 $240 $310 reversed $406 $407 #
+edge $-1 -1 $-1 $408 0 $315 2 $240 $409 forward @7 unknown #
+coedge $-1 -1 $-1 $410 $241 $405 $411 forward $313 $412 #
+coedge $-1 -1 $-1 $241 $410 $395 $413 reversed $313 $414 #
+loop $-1 -1 $-1 $-1 $241 $415 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	1.010657437233825518e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	64.09181388094793874 10 29.87014940429466492 
+	57.72228389715539976 10 29.87014940429466492 
+	47.17123041255248239 10 25.98036010121525052 
+	43.37868584205004652 10 22.04194843184733799 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $242 $416 #
+vertex $-1 -1 $-1 $242 $417 #
+intcurve-curve $-1 -1 $-1 forward { ref 37 } F 0 F 2 #
+coedge $-1 -1 $-1 $418 $243 $419 $420 forward $97 $-1 #
+coedge $-1 -1 $-1 $421 $422 $243 $320 reversed $423 $-1 #
+edge $-1 -1 $-1 $325 3.48827802556362343 $424 5.209509792176264753 $243 $425 forward @7 unknown #
+coedge $-1 -1 $-1 $426 $244 $250 $339 forward $323 $427 #
+coedge $-1 -1 $-1 $244 $426 $421 $428 reversed $323 $429 #
+loop $-1 -1 $-1 $-1 $244 $430 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	9.026363492400658717e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-61.11077931192078694 10 23.8409759845215703 
+	-64.51434495211528031 10 26.46658376410017866 
+	-72.24530119198561806 10 28.70321261337084096 
+	-78.37171934433570186 10 28.70321261337084096 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $320 $431 #
+intcurve-curve $-1 -1 $-1 forward { ref 40 } F 0 F 2 #
+coedge $-1 -1 $-1 $246 $432 $433 $434 forward $97 $-1 #
+coedge $-1 -1 $-1 $435 $436 $246 $329 reversed $437 $-1 #
+edge $-1 -1 $-1 $438 -0.2544665978565822662 $334 -0.2252931780834868114 $246 $439 forward @7 unknown #
+coedge $-1 -1 $-1 $440 $247 $436 $441 forward $332 $442 #
+coedge $-1 -1 $-1 $247 $440 $249 $337 reversed $332 $443 #
+loop $-1 -1 $-1 $-1 $247 $444 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	1.640922681301159798e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-66.11888303963553426 10 -4.651730660535160489 
+	-60.77042274790133547 10 -3.193059671880376094 
+	-54.88711642699372106 10 4.537896567989965213 
+	-54.88711642699372106 10 10.27533579003210207 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $248 $445 #
+intcurve-curve $-1 -1 $-1 forward { ref 43 } F 0 F 2 #
+coedge $-1 -1 $-1 $250 $249 $446 $447 forward $251 $448 #
+edge $-1 -1 $-1 $253 0 $449 0.5 $249 $450 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 25 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $254 0 $451 0.5 $250 $452 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	2.814737799381840766e-15 
+	spline reversed { ref 25 } I I I I 
+	} 0 0 #
+face $453 -1 $-1 $444 $251 $5 $-1 $454 reversed single #
+point $-1 -1 $-1 -54.88711642699372106 10 10.27533579003210207 #
+point $-1 -1 $-1 -61.11077931192078694 10 23.84097598452157385 #
+DXID-attrib $-1 -1 $-1 $-1 $257 @10 ASM ENTITY @36 6537befa-93d6-4c63-9755-c6c0ce3318a7 #
+face $455 -1 $-1 $456 $457 $5 $-1 $458 forward single #
+loop $-1 -1 $-1 $-1 $459 $257 #
+plane-surface $-1 -1 $-1 -125.0000000000000284 0 -79.99999999999991473 -1 0 2.220446049250313574e-16 2.220446049250313475e-15 0 10 forward_v I I I I #
+coedge $-1 -1 $-1 $460 $461 $462 $463 forward $258 $-1 #
+coedge $-1 -1 $-1 $464 $260 $465 $466 forward $193 $-1 #
+coedge $-1 -1 $-1 $260 $467 $468 $469 forward $193 $-1 #
+coedge $-1 -1 $-1 $470 $471 $260 $352 reversed $472 $473 #
+edge $-1 -1 $-1 $474 0 $475 2 $260 $476 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	3.396131967574109407e-15 
+	spline reversed { ref 14 } I I I I 
+	} 0 0 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-8.25826715632921271 15 19.36771828598023859 
+	-7.13995273169388156 15 17.76318019845998109 
+	-6.556484336231966914 15 13.09543303476468168 
+	-6.556484336231966914 15 10.03222395858963978 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 -6.556484336231966914 15 10.03222395858963978 #
+edge $-1 -1 $-1 $374 0 $269 0.5 $286 $477 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 22 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	3.00441932541105968e-16 0 
+	3.00441932541105968e-16 0.5 
+	2.264854970235319185e-15 
+	spline reversed { ref 22 } I I I I 
+	} 0 0 #
+point $-1 -1 $-1 -8.25826715632921271 15 19.36771828598023859 #
+straight-curve $-1 -1 $-1 -17.39927201856584205 10 22.62541682730925174 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $279 @10 ASM ENTITY @36 ea1448ad-8e1a-4002-9fff-2be3d9231eaa #
+face $478 -1 $-1 $479 $480 $5 $-1 $481 forward single #
+loop $-1 -1 $-1 $-1 $482 $279 #
+plane-surface $-1 -1 $-1 -83.79311318550264787 10 -24.48965610624018296 0 0 1 10 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $483 $484 $485 $486 reversed $280 $487 #
+coedge $-1 -1 $-1 $488 $282 $489 $490 forward $216 $491 #
+coedge $-1 -1 $-1 $282 $488 $483 $492 reversed $216 $493 #
+coedge $-1 -1 $-1 $485 $494 $282 $369 forward $495 $-1 #
+edge $-1 -1 $-1 $496 0 $497 2 $368 $498 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0 
+	2 0 
+	4.750868527813379428e-15 
+	spline forward { ref 20 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	2.220446049250313081e-16 0 
+	4.529709940470638369e-15 
+	spline reversed { ref 22 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 14 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 14 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $289 $499 #
+intcurve-curve $-1 -1 $-1 forward { ref 15 } F 0 F 2 #
+straight-curve $-1 -1 $-1 -6.556484336231966914 10 10.03222395858963978 0 10 0 F 0 F 0.5 #
+point $-1 -1 $-1 -6.556484336231966914 10 10.03222395858963978 #
+intcurve-curve $-1 -1 $-1 forward { ref 23 } F 0 F 2 #
+point $-1 -1 $-1 -17.39927201856584205 10 22.62541682730925174 #
+coedge $-1 -1 $-1 $302 $301 $500 $501 forward $185 $-1 #
+coedge $-1 -1 $-1 $502 $503 $301 $382 reversed $457 $-1 #
+edge $504 -1 $-1 $390 0 $505 25 $381 $506 forward @7 unknown #
+coedge $-1 -1 $-1 $461 $460 $302 $384 reversed $258 $-1 #
+edge $507 -1 $-1 $508 0 $389 24.99999999999999645 $383 $509 forward @7 unknown #
+coedge $-1 -1 $-1 $510 $303 $460 $511 reversed $387 $-1 #
+coedge $-1 -1 $-1 $303 $510 $502 $512 forward $387 $-1 #
+loop $-1 -1 $-1 $-1 $510 $456 #
+DXID-attrib $-1 -1 $-1 $-1 $304 @10 ASM ENTITY @36 561ecced-4a94-4633-86a7-6b8693a6e898 #
+vertex $-1 -1 $-1 $304 $513 #
+vertex $-1 -1 $-1 $304 $514 #
+straight-curve $-1 -1 $-1 124.9999999999999716 10 80.00000000000002842 0 0 -10 I I #
+coedge $-1 -1 $-1 $515 $305 $516 $517 forward $139 $-1 #
+coedge $-1 -1 $-1 $518 $519 $305 $394 reversed $520 $521 #
+edge $-1 -1 $-1 $399 0 $522 2 $305 $523 forward @7 unknown #
+coedge $-1 -1 $-1 $524 $306 $312 $413 forward $397 $525 #
+coedge $-1 -1 $-1 $306 $524 $518 $526 reversed $397 $527 #
+loop $-1 -1 $-1 $-1 $306 $528 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	1.277248738783007782e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	43.37868584205004652 10 22.04194843184733799 
+	39.58614127154761775 10 18.05491439619093796 
+	35.55048486960272669 10 6.28830175437570027 
+	35.55048486960272669 10 -1.345409752917654522 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $394 $529 #
+intcurve-curve $-1 -1 $-1 forward { ref 56 } F 0 F 2 #
+coedge $-1 -1 $-1 $308 $530 $531 $532 forward $139 $-1 #
+coedge $-1 -1 $-1 $533 $534 $308 $403 reversed $535 $536 #
+edge $-1 -1 $-1 $537 0 $408 2 $308 $538 forward @7 unknown #
+coedge $-1 -1 $-1 $539 $309 $534 $540 forward $406 $541 #
+coedge $-1 -1 $-1 $309 $539 $311 $411 reversed $406 $542 #
+loop $-1 -1 $-1 $-1 $309 $543 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	9.900234770064914846e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	75.17771339472429304 10 28.1197442179089272 
+	72.211749051126219 10 28.99494681110179783 
+	67.44675715485394107 10 29.87014940429466492 
+	64.09181388094793874 10 29.87014940429466492 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $310 $544 #
+intcurve-curve $-1 -1 $-1 forward { ref 59 } F 0 F 2 #
+coedge $-1 -1 $-1 $312 $311 $545 $546 forward $313 $547 #
+edge $-1 -1 $-1 $315 0 $548 0.5 $311 $549 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 36 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $316 0 $550 0.5 $312 $551 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 36 } I I I I 
+	} 0 0 #
+face $552 -1 $-1 $543 $313 $5 $-1 $553 reversed single #
+point $-1 -1 $-1 64.09181388094793874 10 29.87014940429466492 #
+point $-1 -1 $-1 43.37868584205004652 10 22.04194843184733799 #
+coedge $-1 -1 $-1 $554 $318 $555 $556 forward $97 $-1 #
+coedge $-1 -1 $-1 $557 $558 $318 $420 reversed $559 $-1 #
+edge $-1 -1 $-1 $424 -2.935160630668539383 $560 3.064839369331461505 $318 $561 forward @7 unknown #
+coedge $-1 -1 $-1 $562 $319 $322 $428 forward $423 $-1 #
+coedge $-1 -1 $-1 $319 $562 $557 $563 reversed $423 $-1 #
+loop $-1 -1 $-1 $-1 $319 $564 #
+vertex $-1 -1 $-1 $420 $565 #
+straight-curve $-1 -1 $-1 -43.48893908869946756 10 28.70321261337084096 -10 0 0 I I #
+coedge $-1 -1 $-1 $322 $321 $566 $567 forward $323 $568 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	2.766762478579468945e-15 
+	spline reversed { ref 39 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $325 0 $569 0.5 $421 $570 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 39 } I I I I 
+	} 0 0 #
+face $571 -1 $-1 $572 $323 $5 $-1 $573 reversed single #
+point $-1 -1 $-1 -78.37171934433570186 10 28.70321261337084096 #
+coedge $-1 -1 $-1 $327 $554 $574 $575 forward $97 $-1 #
+coedge $-1 -1 $-1 $576 $577 $327 $434 reversed $578 $579 #
+edge $-1 -1 $-1 $580 0 $438 2 $327 $581 forward @7 unknown #
+coedge $-1 -1 $-1 $582 $328 $577 $583 forward $437 $-1 #
+coedge $-1 -1 $-1 $328 $582 $330 $441 reversed $437 $-1 #
+loop $-1 -1 $-1 $-1 $328 $584 #
+vertex $-1 -1 $-1 $329 $585 #
+straight-curve $-1 -1 $-1 -66.11888303963553426 10 -2.398798879700292375 0 0 10 I I #
+coedge $-1 -1 $-1 $331 $330 $586 $587 forward $332 $588 #
+edge $-1 -1 $-1 $334 0 $589 0.5 $330 $590 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 42 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 42 } I I I I 
+	} 0 0 #
+face $591 -1 $-1 $584 $332 $5 $-1 $592 reversed single #
+point $-1 -1 $-1 -66.11888303963553426 10 -4.651730660535160489 #
+coedge $-1 -1 $-1 $586 $566 $336 $447 reversed $593 $-1 #
+edge $-1 -1 $-1 $449 0 $451 2 $446 $594 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.982554449999381521e-14 
+	spline reversed { ref 25 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $447 $595 #
+straight-curve $-1 -1 $-1 -54.88711642699372106 10 10.27533579003210207 0 10 0 F 0 F 0.5 #
+vertex $-1 -1 $-1 $447 $596 #
+straight-curve $-1 -1 $-1 -61.11077931192078694 10 23.84097598452157385 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $341 @10 ASM ENTITY @36 2142fd80-03ab-4bba-a8c9-ca524cdb371b #
+spline-surface $-1 -1 $-1 forward { ref 25 } I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $345 @10 ASM ENTITY @36 9efe1004-31df-4096-ab81-d50bcb03cbdb #
+face $597 -1 $-1 $598 $387 $5 $-1 $599 forward single #
+loop $-1 -1 $-1 $-1 $600 $345 #
+plane-surface $-1 -1 $-1 124.9999999999999716 0 -79.99999999999997158 -2.486899575160350887e-16 0 -1 -10 0 2.486899575160350887e-15 forward_v I I I I #
+coedge $-1 -1 $-1 $601 $602 $603 $604 forward $346 $-1 #
+coedge $-1 -1 $-1 $383 $348 $385 $511 forward $258 $-1 #
+coedge $-1 -1 $-1 $348 $383 $601 $605 reversed $258 $-1 #
+coedge $-1 -1 $-1 $603 $606 $348 $463 reversed $607 $-1 #
+edge $608 -1 $-1 $609 0 $610 24.99999999999999645 $348 $611 forward @7 unknown #
+coedge $-1 -1 $-1 $612 $349 $613 $614 forward $193 $-1 #
+coedge $-1 -1 $-1 $615 $616 $349 $466 reversed $617 $618 #
+edge $-1 -1 $-1 $475 0 $619 2 $349 $620 forward @7 unknown #
+coedge $-1 -1 $-1 $350 $621 $622 $623 forward $193 $-1 #
+coedge $-1 -1 $-1 $624 $625 $350 $469 reversed $626 $627 #
+edge $-1 -1 $-1 $628 0 $474 2 $350 $629 forward @7 unknown #
+coedge $-1 -1 $-1 $630 $351 $625 $631 forward $472 $632 #
+coedge $-1 -1 $-1 $351 $630 $615 $633 reversed $472 $634 #
+loop $-1 -1 $-1 $-1 $351 $635 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0 
+	2 0 
+	8.746047584581302446e-15 
+	spline forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-63.20154106232597258 10 10.61569235405155354 
+	-63.20154106232597258 10 7.212126713857061056 
+	-65.1464357138656851 10 2.836113747892716752 
+	-68.06377769117524679 10 1.280198026660950283 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $352 $636 #
+vertex $-1 -1 $-1 $352 $637 #
+intcurve-curve $-1 -1 $-1 forward { ref 69 } F 0 F 2 #
+straight-curve $-1 -1 $-1 -8.25826715632921271 10 19.36771828598023859 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $362 @10 ASM ENTITY @36 8c1aa2e6-1806-444a-acc7-61ce18e366ab #
+face $638 -1 $-1 $639 $640 $5 $-1 $641 forward single #
+loop $-1 -1 $-1 $-1 $642 $362 #
+plane-surface $-1 -1 $-1 -87.60996893914932571 10 -15.71331899116724884 1 0 0 0 0 -10 forward_v I I I I #
+coedge $-1 -1 $-1 $643 $644 $645 $646 reversed $363 $-1 #
+coedge $-1 -1 $-1 $647 $365 $367 $492 forward $280 $648 #
+coedge $-1 -1 $-1 $365 $647 $643 $649 reversed $280 $650 #
+coedge $-1 -1 $-1 $645 $368 $365 $486 forward $495 $-1 #
+edge $-1 -1 $-1 $497 0 $651 2 $485 $652 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0 
+	2 0 
+	1.654737207107646474e-14 
+	spline forward { ref 31 } I I I I 
+	} 0 0 #
+coedge $-1 -1 $-1 $367 $366 $653 $654 reversed $216 $655 #
+coedge $-1 -1 $-1 $656 $657 $366 $490 reversed $658 $659 #
+edge $-1 -1 $-1 $496 0 $660 0.5 $366 $661 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	0 0.5 
+	0 0 
+	0 
+	spline forward { ref 20 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $497 0 $662 0.5 $367 $663 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	2 0 
+	2 0.5 
+	2.260164205855227044e-15 
+	spline forward { ref 20 } I I I I 
+	} 0 0 #
+coedge $-1 -1 $-1 $368 $664 $656 $665 forward $495 $-1 #
+loop $-1 -1 $-1 $-1 $368 $598 #
+vertex $-1 -1 $-1 $369 $666 #
+vertex $-1 -1 $-1 $369 $667 #
+intcurve-curve $-1 -1 $-1 forward { ref 21 } F 0 F 2 #
+point $-1 -1 $-1 -8.25826715632921271 10 19.36771828598023859 #
+coedge $-1 -1 $-1 $602 $601 $380 $501 reversed $346 $-1 #
+edge $668 -1 $-1 $505 0 $508 15.99999999999999822 $500 $669 forward @7 unknown #
+coedge $-1 -1 $-1 $600 $381 $386 $512 reversed $457 $-1 #
+coedge $-1 -1 $-1 $381 $600 $602 $670 forward $457 $-1 #
+DXID-attrib $-1 -1 $-1 $-1 $382 @10 ASM ENTITY @36 5aa6f078-dc26-464a-b334-4aaa6b17d7d6 #
+vertex $-1 -1 $-1 $382 $671 #
+straight-curve $-1 -1 $-1 124.9999999999999716 10 -79.99999999999997158 -10 0 2.486899575160350887e-15 I I #
+DXID-attrib $-1 -1 $-1 $-1 $384 @10 ASM ENTITY @36 00c7f25c-cabe-4e6b-8326-d219c08c4fbb #
+vertex $-1 -1 $-1 $501 $672 #
+straight-curve $-1 -1 $-1 -125 10 80.00000000000007105 10 0 -1.421085471520200648e-15 I I #
+coedge $-1 -1 $-1 $386 $385 $606 $673 forward $387 $-1 #
+edge $674 -1 $-1 $610 0 $389 1 $385 $675 forward @7 unknown #
+edge $676 -1 $-1 $677 0 $390 1 $386 $678 forward @7 unknown #
+point $-1 -1 $-1 124.9999999999999716 10 80.00000000000002842 #
+point $-1 -1 $-1 124.9999999999999716 10 -79.99999999999997158 #
+coedge $-1 -1 $-1 $679 $392 $680 $681 forward $139 $-1 #
+coedge $-1 -1 $-1 $682 $683 $392 $517 reversed $684 $685 #
+edge $-1 -1 $-1 $522 0 $686 2 $392 $687 forward @7 unknown #
+coedge $-1 -1 $-1 $688 $393 $396 $526 forward $520 $689 #
+coedge $-1 -1 $-1 $393 $688 $682 $690 reversed $520 $691 #
+loop $-1 -1 $-1 $-1 $393 $692 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	6.643952104859731587e-18 0 
+	7.590122081548482666e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	35.55048486960272669 10 -1.345409752917654522 
+	35.55048486960272669 10 -8.590142329903066809 
+	39.63476363783611589 10 -20.0650207739873494 
+	43.42730820833853755 10 -24.1492995422207386 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $517 $693 #
+intcurve-curve $-1 -1 $-1 forward { ref 75 } F 0 F 2 #
+coedge $-1 -1 $-1 $396 $395 $694 $695 forward $397 $696 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 55 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $399 0 $697 0.5 $518 $698 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	2.831068712794148981e-16 
+	spline reversed { ref 55 } I I I I 
+	} 0 0 #
+face $699 -1 $-1 $98 $397 $5 $-1 $700 reversed single #
+point $-1 -1 $-1 35.55048486960272669 10 -1.345409752917654744 #
+coedge $-1 -1 $-1 $401 $701 $702 $703 forward $139 $-1 #
+coedge $-1 -1 $-1 $704 $705 $401 $532 reversed $706 $-1 #
+edge $-1 -1 $-1 $707 -0.7297502283265985268 $537 1.890995314623158396 $401 $708 forward @7 unknown #
+coedge $-1 -1 $-1 $709 $402 $705 $710 forward $535 $711 #
+coedge $-1 -1 $-1 $402 $709 $404 $540 reversed $535 $712 #
+loop $-1 -1 $-1 $-1 $402 $713 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	6.661338147750939243e-16 0 
+	1.66624910919722561e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	84.02698405922996017 10 24.71617857771443738 
+	82.51969070428668829 10 25.39689170575333321 
+	77.36571987770645364 10 27.48765345615852596 
+	75.17771339472429304 10 28.1197442179089272 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $403 $714 #
+intcurve-curve $-1 -1 $-1 forward { ref 80 } F 0 F 2 #
+coedge $-1 -1 $-1 $405 $404 $715 $716 forward $406 $717 #
+edge $-1 -1 $-1 $408 0 $718 0.5 $404 $719 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	1.281987040705805578e-15 
+	spline reversed { ref 58 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 58 } I I I I 
+	} 0 0 #
+face $720 -1 $-1 $713 $406 $5 $-1 $721 reversed single #
+point $-1 -1 $-1 75.17771339472429304 10 28.11974421790893075 #
+coedge $-1 -1 $-1 $715 $694 $410 $546 reversed $722 $-1 #
+edge $-1 -1 $-1 $548 0 $550 2 $545 $723 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.010657437233825676e-14 
+	spline reversed { ref 36 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $546 $724 #
+straight-curve $-1 -1 $-1 64.09181388094793874 10 29.87014940429466492 0 10 0 F 0 F 0.5 #
+vertex $-1 -1 $-1 $546 $725 #
+straight-curve $-1 -1 $-1 43.37868584205004652 10 22.04194843184733799 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $415 @10 ASM ENTITY @36 c119ce80-4c3a-4045-9a4f-ffc6ae3f7dc5 #
+spline-surface $-1 -1 $-1 forward { ref 36 } I I I I #
+coedge $-1 -1 $-1 $432 $418 $726 $727 forward $97 $-1 #
+coedge $-1 -1 $-1 $728 $729 $418 $556 reversed $730 $-1 #
+edge $-1 -1 $-1 $560 -5.176689694931531527 $731 -3.586738317297820444 $418 $732 forward @7 unknown #
+coedge $-1 -1 $-1 $733 $419 $422 $563 forward $559 $-1 #
+coedge $-1 -1 $-1 $419 $733 $728 $734 reversed $559 $-1 #
+loop $-1 -1 $-1 $-1 $419 $735 #
+vertex $-1 -1 $-1 $556 $736 #
+straight-curve $-1 -1 $-1 -95.58403701046211154 10 -0.6483936933145550974 0 0 -10 I I #
+coedge $-1 -1 $-1 $422 $421 $737 $738 forward $423 $-1 #
+edge $-1 -1 $-1 $424 0 $739 0.5 $557 $740 forward @7 unknown #
+face $741 -1 $-1 $430 $423 $5 $-1 $742 reversed single #
+point $-1 -1 $-1 -95.58403701046211154 10 28.70321261337084096 #
+coedge $-1 -1 $-1 $446 $737 $426 $567 reversed $593 $-1 #
+edge $-1 -1 $-1 $451 0 $569 2 $566 $743 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.030411979169920079e-14 
+	spline reversed { ref 39 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $738 $744 #
+straight-curve $-1 -1 $-1 -78.37171934433570186 10 28.70321261337084096 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $430 @10 ASM ENTITY @36 ce0fea21-c703-4f14-be36-c95001187855 #
+face $745 -1 $-1 $415 $722 $5 $-1 $746 forward single #
+spline-surface $-1 -1 $-1 forward { ref 39 } I I I I #
+coedge $-1 -1 $-1 $747 $748 $432 $575 reversed $749 $750 #
+edge $-1 -1 $-1 $751 0 $580 2 $432 $752 forward @7 unknown #
+coedge $-1 -1 $-1 $753 $433 $748 $754 forward $578 $755 #
+coedge $-1 -1 $-1 $433 $753 $435 $583 reversed $578 $756 #
+loop $-1 -1 $-1 $-1 $433 $757 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	5.551115123125782702e-17 0 
+	1.304544860790658962e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-57.70721367172630067 10 -17.77976955842818896 
+	-57.70721367172630067 10 -13.54962369132932665 
+	-62.18047137026762528 10 -6.83973714351733264 
+	-66.11888303963553426 10 -4.943464858266115591 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $434 $758 #
+intcurve-curve $-1 -1 $-1 forward { ref 87 } F 0 F 2 #
+coedge $-1 -1 $-1 $436 $435 $759 $760 forward $437 $-1 #
+edge $-1 -1 $-1 $438 0 $761 0.5 $435 $762 forward @7 unknown #
+face $763 -1 $-1 $757 $437 $5 $-1 $764 reversed single #
+point $-1 -1 $-1 -66.11888303963554847 10 -4.943464858266114703 #
+coedge $-1 -1 $-1 $759 $446 $440 $587 reversed $593 $-1 #
+edge $-1 -1 $-1 $589 0 $449 2 $586 $765 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	5.386303220974152688e-15 
+	spline reversed { ref 42 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $587 $766 #
+straight-curve $-1 -1 $-1 -66.11888303963553426 10 -4.651730660535160489 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $444 @10 ASM ENTITY @36 1657d842-9b3b-458a-9122-8b15d02fb14c #
+spline-surface $-1 -1 $-1 forward { ref 42 } I I I I #
+loop $-1 -1 $-1 $-1 $446 $767 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-54.88711642699372106 15 10.27533579003210207 
+	-54.88711642699372106 15 14.74859348857343377 
+	-58.29068206718821443 15 21.60434713525090444 
+	-61.11077931192078694 15 23.8409759845215703 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 -54.88711642699372106 15 10.27533579003210207 #
+point $-1 -1 $-1 -61.11077931192078694 15 23.84097598452157385 #
+DXID-attrib $-1 -1 $-1 $-1 $456 @10 ASM ENTITY @36 600540f2-c615-4b59-a4c6-5a00ea0888ca #
+face $768 -1 $-1 $769 $495 $5 $-1 $143 forward single #
+plane-surface $-1 -1 $-1 124.9999999999999716 0 80.00000000000002842 1 0 0 0 0 -10 forward_v I I I I #
+coedge $-1 -1 $-1 $503 $502 $770 $771 forward $457 $-1 #
+coedge $-1 -1 $-1 $500 $459 $461 $605 forward $346 $-1 #
+coedge $-1 -1 $-1 $459 $500 $503 $670 reversed $346 $-1 #
+coedge $-1 -1 $-1 $770 $462 $459 $604 reversed $607 $-1 #
+edge $772 -1 $-1 $773 0 $609 15.99999999999999822 $459 $774 forward @7 unknown #
+edge $775 -1 $-1 $609 0 $508 1 $601 $776 forward @7 unknown #
+coedge $-1 -1 $-1 $462 $770 $510 $673 reversed $607 $-1 #
+loop $-1 -1 $-1 $-1 $606 $769 #
+DXID-attrib $-1 -1 $-1 $-1 $463 @10 ASM ENTITY @36 f2c946bf-a110-434a-8eec-06c23a307f32 #
+vertex $-1 -1 $-1 $463 $777 #
+vertex $-1 -1 $-1 $463 $778 #
+straight-curve $-1 -1 $-1 -125 0 80.00000000000007105 10 0 -1.421085471520200648e-15 F 0 F 24.99999999999999645 #
+coedge $-1 -1 $-1 $621 $464 $779 $780 forward $193 $-1 #
+coedge $-1 -1 $-1 $781 $782 $464 $614 reversed $783 $-1 #
+edge $-1 -1 $-1 $619 3.702216437232990209 $784 4.606592450198955468 $464 $785 forward @7 unknown #
+coedge $-1 -1 $-1 $786 $465 $471 $633 forward $617 $787 #
+coedge $-1 -1 $-1 $465 $786 $781 $788 reversed $617 $789 #
+loop $-1 -1 $-1 $-1 $465 $790 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0 
+	2 0 
+	9.059425646638015796e-15 
+	spline forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-68.06377769117524679 10 1.280198026660950283 
+	-69.96004997642646117 10 0.3077507008910984609 
+	-74.43330767496777867 10 -0.2757176945708161853 
+	-78.56620880948966601 10 -0.2757176945708161853 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $466 $791 #
+intcurve-curve $-1 -1 $-1 forward { ref 92 } F 0 F 2 #
+coedge $-1 -1 $-1 $467 $612 $792 $793 forward $193 $-1 #
+coedge $-1 -1 $-1 $794 $795 $467 $623 reversed $796 $797 #
+edge $-1 -1 $-1 $798 0 $628 2 $467 $799 forward @7 unknown #
+coedge $-1 -1 $-1 $800 $468 $795 $801 forward $626 $802 #
+coedge $-1 -1 $-1 $468 $800 $470 $631 reversed $626 $803 #
+loop $-1 -1 $-1 $-1 $468 $804 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0 
+	1.999999999999999778 0 
+	8.389140590934712975e-15 
+	spline forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-67.52893166200182407 10 19.36771828598023859 
+	-65.29230281273116532 10 17.76318019845998109 
+	-63.20154106232597258 10 13.77614616280357929 
+	-63.20154106232597258 10 10.61569235405155354 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $623 $805 #
+intcurve-curve $-1 -1 $-1 forward { ref 95 } F 0 F 2 #
+coedge $-1 -1 $-1 $471 $470 $806 $807 reversed $472 $808 #
+edge $-1 -1 $-1 $474 0 $809 0.5 $470 $810 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	0 0.5 
+	0 0 
+	0 
+	spline forward { ref 68 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $475 0 $811 0.5 $471 $812 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	2 0 
+	2 0.5 
+	1.332267629550185334e-16 
+	spline forward { ref 68 } I I I I 
+	} 0 0 #
+face $813 -1 $-1 $790 $472 $5 $-1 $814 reversed single #
+point $-1 -1 $-1 -63.20154106232597258 10 10.61569235405155354 #
+point $-1 -1 $-1 -68.06377769117524679 10 1.280198026660950061 #
+DXID-attrib $-1 -1 $-1 $-1 $479 @10 ASM ENTITY @36 d48d8181-5eec-440d-9960-45213c227b35 #
+face $815 -1 $-1 $816 $817 $5 $-1 $818 reversed single #
+loop $-1 -1 $-1 $-1 $819 $479 #
+plane-surface $-1 -1 $-1 -83.08808887431949586 10 -6.936981876094314714 0 0 -1 -10 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $820 $821 $822 $823 reversed $480 $-1 #
+coedge $-1 -1 $-1 $824 $482 $484 $649 forward $363 $-1 #
+coedge $-1 -1 $-1 $482 $824 $820 $825 reversed $363 $-1 #
+coedge $-1 -1 $-1 $822 $485 $482 $646 forward $495 $-1 #
+edge $-1 -1 $-1 $651 3.807970083910461767 $826 4.57134123463979769 $645 $827 forward @7 unknown #
+coedge $-1 -1 $-1 $484 $483 $828 $829 reversed $280 $830 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	1.547282817634040144e-15 0.5 
+	2.029373903247017915e-15 0 
+	1.805896779746661469e-14 
+	spline forward { ref 31 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $651 0 $831 0.5 $484 $832 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	2 0 
+	2 0.5 
+	0 
+	spline forward { ref 31 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $486 $833 #
+intcurve-curve $-1 -1 $-1 forward { ref 32 } F 0 F 2 #
+coedge $-1 -1 $-1 $834 $828 $488 $654 forward $835 $-1 #
+edge $-1 -1 $-1 $662 -2 $660 -0 $653 $836 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0.5 
+	0 0.5 
+	4.750868527813337618e-15 
+	spline forward { ref 20 } I I I I 
+	} 0 0 #
+coedge $-1 -1 $-1 $837 $489 $494 $665 reversed $658 $838 #
+coedge $-1 -1 $-1 $489 $837 $834 $839 reversed $658 $840 #
+loop $-1 -1 $-1 $-1 $656 $816 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	2 0 
+	2 0.5 
+	0 
+	spline forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-69.37658158096455452 10 -8.930498893922518278 
+	-67.52893166200182407 10 -10.09743568484634224 
+	-66.02163830705855219 10 -13.84135788906028175 
+	-66.02163830705855219 10 -16.66145513379285958 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $490 $841 #
+straight-curve $-1 -1 $-1 -66.02163830705855219 10 -16.66145513379285958 0 10 0 F 0 F 0.5 #
+vertex $-1 -1 $-1 $654 $842 #
+straight-curve $-1 -1 $-1 -69.08484738323359409 10 -22.93374038500842005 0 10 0 F 0 F 0.5 #
+coedge $-1 -1 $-1 $494 $843 $844 $845 forward $495 $-1 #
+edge $-1 -1 $-1 $846 0 $496 2 $494 $847 forward @7 unknown #
+point $-1 -1 $-1 -66.02163830705855219 10 -16.66145513379285958 #
+point $-1 -1 $-1 -69.08484738323359409 10 -22.93374038500842005 #
+DXID-attrib $-1 -1 $-1 $-1 $501 @10 ASM ENTITY @36 613849dc-279e-425c-905c-ec552c2ba71c #
+straight-curve $-1 -1 $-1 -125.0000000000000284 10 -79.99999999999991473 2.220446049250313475e-15 0 10 I I #
+edge $848 -1 $-1 $773 0 $505 1 $503 $849 forward @7 unknown #
+point $-1 -1 $-1 -125.0000000000000284 10 -79.99999999999991473 #
+point $-1 -1 $-1 -125 10 80.00000000000007105 #
+edge $850 -1 $-1 $610 0 $677 16 $510 $851 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $511 @10 ASM ENTITY @36 93495920-7771-415d-aad3-f57d3a1c2708 #
+straight-curve $-1 -1 $-1 124.9999999999999716 0 80.00000000000002842 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $512 @10 ASM ENTITY @36 1d9d97a9-1da3-41e3-ae13-c0ee80e54c60 #
+vertex $-1 -1 $-1 $771 $852 #
+straight-curve $-1 -1 $-1 124.9999999999999716 0 -79.99999999999997158 0 10 0 I I #
+coedge $-1 -1 $-1 $853 $515 $854 $855 forward $139 $-1 #
+coedge $-1 -1 $-1 $856 $857 $515 $681 reversed $858 $859 #
+edge $-1 -1 $-1 $686 0 $860 2 $515 $861 forward @7 unknown #
+coedge $-1 -1 $-1 $862 $516 $519 $690 forward $684 $863 #
+coedge $-1 -1 $-1 $516 $862 $856 $864 reversed $684 $865 #
+loop $-1 -1 $-1 $-1 $516 $866 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	2.775557561562891351e-17 0 
+	1.724151181248202626e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	43.42730820833853755 10 -24.1492995422207386 
+	47.07398567997549321 10 -28.08771121158864403 
+	57.77090626344389079 10 -32.36647944497600804 
+	64.14043624723643688 10 -32.36647944497600804 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $681 $867 #
+intcurve-curve $-1 -1 $-1 forward { ref 106 } F 0 F 2 #
+coedge $-1 -1 $-1 $519 $518 $868 $869 forward $520 $870 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	1.91556936855067584e-17 0 
+	0 0.5 
+	2.831068712794148981e-16 
+	spline reversed { ref 74 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $522 0 $871 0.5 $682 $872 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 74 } I I I I 
+	} 0 0 #
+face $873 -1 $-1 $528 $520 $5 $-1 $874 reversed single #
+point $-1 -1 $-1 43.42730820833853755 10 -24.1492995422207386 #
+coedge $-1 -1 $-1 $545 $868 $524 $695 reversed $722 $-1 #
+edge $-1 -1 $-1 $550 0 $697 2 $694 $875 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	6.74899039528267802e-15 
+	spline reversed { ref 55 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $869 $876 #
+straight-curve $-1 -1 $-1 35.55048486960272669 10 -1.345409752917654744 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $528 @10 ASM ENTITY @36 75657218-01d8-4c0a-a1a1-b62940217634 #
+spline-surface $-1 -1 $-1 forward { ref 55 } I I I I #
+coedge $-1 -1 $-1 $530 $877 $878 $879 forward $139 $-1 #
+coedge $-1 -1 $-1 $880 $881 $530 $703 reversed $882 $-1 #
+edge $-1 -1 $-1 $883 2.567637695668144815 $707 4.745919705392617871 $530 $884 forward @7 unknown #
+coedge $-1 -1 $-1 $885 $531 $881 $886 forward $706 $-1 #
+coedge $-1 -1 $-1 $531 $885 $533 $710 reversed $706 $-1 #
+loop $-1 -1 $-1 $-1 $531 $887 #
+vertex $-1 -1 $-1 $532 $888 #
+straight-curve $-1 -1 $-1 84.02698405922996017 10 5.806225431482853416 0 0 10 I I #
+coedge $-1 -1 $-1 $534 $533 $889 $890 forward $535 $891 #
+edge $-1 -1 $-1 $537 0 $892 0.5 $533 $893 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.4999999999999999445 
+	2.264854970235319185e-15 
+	spline reversed { ref 79 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	1.257174124257042833e-15 
+	spline reversed { ref 79 } I I I I 
+	} 0 0 #
+face $894 -1 $-1 $887 $535 $5 $-1 $895 reversed single #
+point $-1 -1 $-1 84.02698405922996017 10 24.71617857771443738 #
+coedge $-1 -1 $-1 $889 $545 $539 $716 reversed $722 $-1 #
+edge $-1 -1 $-1 $718 0 $548 2 $715 $896 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	1.999999999999999556 0.5 
+	9.020840593966601641e-15 
+	spline reversed { ref 58 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $716 $897 #
+straight-curve $-1 -1 $-1 75.17771339472429304 10 28.11974421790893075 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $543 @10 ASM ENTITY @36 d5a53e5c-d945-46cf-a221-1541b5ab2b87 #
+spline-surface $-1 -1 $-1 forward { ref 58 } I I I I #
+loop $-1 -1 $-1 $-1 $545 $572 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	64.09181388094793874 15 29.87014940429466492 
+	57.72228389715539976 15 29.87014940429466492 
+	47.17123041255248239 15 25.98036010121525052 
+	43.37868584205004652 15 22.04194843184733799 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 64.09181388094793874 15 29.87014940429466492 #
+point $-1 -1 $-1 43.37868584205004652 15 22.04194843184733799 #
+coedge $-1 -1 $-1 $898 $899 $554 $727 reversed $900 $901 #
+edge $-1 -1 $-1 $731 0 $751 2 $554 $902 forward @7 unknown #
+coedge $-1 -1 $-1 $903 $555 $558 $734 forward $730 $-1 #
+coedge $-1 -1 $-1 $555 $903 $898 $904 reversed $730 $-1 #
+loop $-1 -1 $-1 $-1 $555 $905 #
+vertex $-1 -1 $-1 $727 $906 #
+straight-curve $-1 -1 $-1 -43.8171400611468016 10 -31.2967873866291697 10 0 0 I I #
+coedge $-1 -1 $-1 $558 $557 $907 $908 forward $559 $-1 #
+edge $-1 -1 $-1 $560 0 $909 0.5 $728 $910 forward @7 unknown #
+face $911 -1 $-1 $564 $559 $5 $-1 $912 reversed single #
+point $-1 -1 $-1 -95.58403701046211154 10 -31.2967873866291697 #
+coedge $-1 -1 $-1 $566 $907 $562 $738 reversed $593 $-1 #
+edge $-1 -1 $-1 $569 0 $739 1.721231766612641323 $737 $913 forward @7 unknown #
+vertex $-1 -1 $-1 $908 $914 #
+straight-curve $-1 -1 $-1 -95.58403701046211154 10 28.70321261337084096 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $564 @10 ASM ENTITY @36 7c6a0718-1074-4793-b88b-4ae96798e237 #
+plane-surface $-1 -1 $-1 -86.9778781773989067 10 28.70321261337084096 0 0 -1 -10 0 0 forward_v I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-61.11077931192078694 15 23.8409759845215703 
+	-64.51434495211528031 15 26.46658376410017866 
+	-72.24530119198561806 15 28.70321261337084096 
+	-78.37171934433570186 15 28.70321261337084096 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 -78.37171934433570186 15 28.70321261337084096 #
+DXID-attrib $-1 -1 $-1 $-1 $572 @10 ASM ENTITY @36 845e2206-f7d9-405b-bea4-834f75abe9e0 #
+plane-surface $-1 -1 $-1 -3.552713678800500929e-14 15 5.329070518200751394e-14 0 1 0 0 0 10 forward_v I I I I #
+coedge $-1 -1 $-1 $915 $574 $899 $916 forward $749 $917 #
+coedge $-1 -1 $-1 $574 $915 $576 $754 reversed $749 $918 #
+loop $-1 -1 $-1 $-1 $574 $919 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	1.970147520231860428e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-63.93087655665336655 10 -28.86566907220452549 
+	-60.6731780153243534 10 -27.16388625210728947 
+	-57.70721367172630067 10 -21.57231412893062128 
+	-57.70721367172630067 10 -17.77976955842818896 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $575 $920 #
+intcurve-curve $-1 -1 $-1 forward { ref 117 } F 0 F 2 #
+coedge $-1 -1 $-1 $577 $576 $921 $922 forward $578 $923 #
+edge $-1 -1 $-1 $580 0 $924 0.5 $576 $925 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 86 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	8.408184804862752413e-15 
+	spline reversed { ref 86 } I I I I 
+	} 0 0 #
+face $926 -1 $-1 $919 $578 $5 $-1 $927 reversed single #
+point $-1 -1 $-1 -57.70721367172630778 10 -17.77976955842818896 #
+coedge $-1 -1 $-1 $921 $586 $582 $760 reversed $593 $-1 #
+edge $-1 -1 $-1 $761 5.551115123125782702e-17 $589 0.02917341977309551027 $759 $928 forward @7 unknown #
+vertex $-1 -1 $-1 $760 $929 #
+straight-curve $-1 -1 $-1 -66.11888303963554847 10 -4.943464858266114703 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $584 @10 ASM ENTITY @36 c81144f2-a31b-4bc6-b827-d80b80d7ef47 #
+plane-surface $-1 -1 $-1 -66.11888303963553426 10 -4.79759775940063804 -1 0 0 0 0 10 forward_v I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-66.11888303963553426 15 -4.651730660535160489 
+	-60.77042274790133547 15 -3.193059671880376094 
+	-54.88711642699372106 15 4.537896567989965213 
+	-54.88711642699372106 15 10.27533579003210207 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 -66.11888303963553426 15 -4.651730660535160489 #
+face $930 -1 $-1 $341 $835 $5 $-1 $931 forward single #
+DXID-attrib $-1 -1 $-1 $-1 $598 @10 ASM ENTITY @36 855fc9eb-7518-4fe8-9430-579036c92921 #
+face $932 -1 $-1 $-1 $607 $5 $-1 $933 reversed single #
+coedge $-1 -1 $-1 $606 $603 $600 $771 reversed $607 $-1 #
+edge $934 -1 $-1 $677 0 $773 25 $600 $935 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $604 @10 ASM ENTITY @36 f4c42e44-4a77-4ad8-888d-65863b4aed59 #
+vertex $-1 -1 $-1 $604 $936 #
+straight-curve $-1 -1 $-1 -125.0000000000000284 0 -79.99999999999991473 2.220446049250313475e-15 0 10 F 0 F 15.99999999999999822 #
+DXID-attrib $-1 -1 $-1 $-1 $605 @10 ASM ENTITY @36 21ebb644-e7fc-4c08-9a7b-52081d22064d #
+straight-curve $-1 -1 $-1 -125 0 80.00000000000007105 0 10 0 I I #
+point $-1 -1 $-1 -125 0 80.00000000000007105 #
+point $-1 -1 $-1 124.9999999999999716 0 80.00000000000002842 #
+coedge $-1 -1 $-1 $937 $938 $612 $780 reversed $939 $-1 #
+edge $-1 -1 $-1 $784 -0.5680808604173603893 $940 1.649099042337907273 $612 $941 forward @7 unknown #
+coedge $-1 -1 $-1 $942 $613 $616 $788 forward $783 $-1 #
+coedge $-1 -1 $-1 $613 $942 $937 $943 reversed $783 $-1 #
+loop $-1 -1 $-1 $-1 $613 $944 #
+vertex $-1 -1 $-1 $614 $945 #
+straight-curve $-1 -1 $-1 -41.54404443715976214 10 -0.2757176945708161853 -10 0 0 I I #
+coedge $-1 -1 $-1 $616 $615 $946 $947 reversed $617 $948 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	6.565767029281359781e-17 0.5 
+	6.565767029281359781e-17 0 
+	1.291863784136926918e-16 
+	spline forward { ref 91 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $619 0 $949 0.5 $616 $950 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	2 0 
+	2 0.5 
+	0 
+	spline forward { ref 91 } I I I I 
+	} 0 0 #
+face $951 -1 $-1 $944 $617 $5 $-1 $952 reversed single #
+point $-1 -1 $-1 -78.56620880948966601 10 -0.2757176945708161298 #
+coedge $-1 -1 $-1 $953 $954 $621 $793 reversed $955 $-1 #
+edge $-1 -1 $-1 $940 -4.542167814866703068 $798 -3.895490343229749186 $621 $956 forward @7 unknown #
+coedge $-1 -1 $-1 $957 $622 $954 $958 forward $796 $959 #
+coedge $-1 -1 $-1 $622 $957 $624 $801 reversed $796 $960 #
+loop $-1 -1 $-1 $-1 $622 $961 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0 
+	2 0 
+	2.726436861158317084e-14 
+	spline forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-81.14319422277978333 10 21.89608133298186132 
+	-75.89197866362256661 10 21.89608133298186132 
+	-69.86280524384946489 10 20.92363400721200861 
+	-67.52893166200182407 10 19.36771828598023859 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $793 $962 #
+intcurve-curve $-1 -1 $-1 forward { ref 125 } F 0 F 2 #
+coedge $-1 -1 $-1 $625 $624 $963 $964 reversed $626 $965 #
+edge $-1 -1 $-1 $628 0 $966 0.5 $795 $967 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2.656980694939924602e-15 0.5 
+	2.656980694939924602e-15 0 
+	3.960605396718472267e-15 
+	spline forward { ref 94 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	2 0 
+	2 0.5 
+	0 
+	spline forward { ref 94 } I I I I 
+	} 0 0 #
+face $968 -1 $-1 $767 $626 $5 $-1 $969 reversed single #
+point $-1 -1 $-1 -67.52893166200182407 10 19.36771828598023859 #
+coedge $-1 -1 $-1 $963 $946 $630 $807 forward $970 $-1 #
+edge $-1 -1 $-1 $811 -2 $809 -0 $806 $971 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0.5 
+	2.495358417252737735e-16 0.5 
+	1.462260539983929248e-15 
+	spline forward { ref 68 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $631 $972 #
+straight-curve $-1 -1 $-1 -63.20154106232597258 10 10.61569235405155354 0 10 0 F 0 F 0.5 #
+vertex $-1 -1 $-1 $807 $973 #
+straight-curve $-1 -1 $-1 -68.06377769117524679 10 1.280198026660950061 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $635 @10 ASM ENTITY @36 d33c3738-db61-41ac-9030-4fe139754883 #
+spline-surface $-1 -1 $-1 forward { ref 68 } I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $639 @10 ASM ENTITY @36 5900b2ec-02ae-40da-b4b6-d130cb112143 #
+face $974 -1 $-1 $635 $658 $5 $-1 $975 reversed single #
+loop $-1 -1 $-1 $-1 $844 $639 #
+spline-surface $-1 -1 $-1 forward { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-78.56620880948966601 10 -6.936981876094314714 
+	-74.82228660527573538 10 -6.936981876094314714 
+	-71.2728538662157689 10 -7.714939736710197948 
+	-69.37658158096455452 10 -8.930498893922518278 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I #
+coedge $-1 -1 $-1 $976 $977 $843 $978 reversed $640 $-1 #
+coedge $-1 -1 $-1 $979 $642 $644 $825 forward $480 $-1 #
+coedge $-1 -1 $-1 $642 $979 $976 $980 reversed $480 $-1 #
+coedge $-1 -1 $-1 $843 $645 $642 $823 forward $495 $-1 #
+edge $-1 -1 $-1 $826 -1.663299661065658519 $981 0.09196776194892830603 $822 $982 forward @7 unknown #
+coedge $-1 -1 $-1 $644 $643 $983 $984 reversed $363 $-1 #
+edge $-1 -1 $-1 $826 0 $985 0.5 $644 $986 forward @7 unknown #
+vertex $-1 -1 $-1 $646 $987 #
+straight-curve $-1 -1 $-1 -41.89655659275133814 10 -24.48965610624018296 -10 0 0 I I #
+coedge $-1 -1 $-1 $653 $983 $647 $829 forward $835 $-1 #
+edge $-1 -1 $-1 $831 -2 $662 -0 $828 $988 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0.5 
+	0 0.5 
+	8.550194696080374341e-15 
+	spline forward { ref 31 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $829 $989 #
+straight-curve $-1 -1 $-1 -79.97625743185595582 10 -24.48965610624018296 0 10 0 F 0 F 0.5 #
+point $-1 -1 $-1 -79.97625743185595582 10 -24.48965610624018296 #
+coedge $-1 -1 $-1 $990 $653 $657 $839 forward $835 $-1 #
+loop $-1 -1 $-1 $970 $653 $767 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-66.02163830705855219 15 -16.66145513379285958 
+	-66.02163830705855219 15 -18.80083925048653626 
+	-67.48030929571334013 15 -22.00991542552706193 
+	-69.08484738323359409 15 -22.9337403850084165 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F -2 F -0 #
+coedge $-1 -1 $-1 $657 $656 $991 $992 forward $658 $993 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0 
+	2 0 
+	6.354892854349761367e-15 
+	spline forward { ref 102 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $660 -2 $994 -0 $834 $995 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0.5 
+	0 0.5 
+	1.344803921766265725e-14 
+	spline forward { ref 102 } I I I I 
+	} 0 0 #
+point $-1 -1 $-1 -66.02163830705855219 15 -16.66145513379285958 #
+point $-1 -1 $-1 -69.08484738323359409 15 -22.93374038500842005 #
+coedge $-1 -1 $-1 $664 $822 $819 $978 forward $495 $-1 #
+coedge $-1 -1 $-1 $996 $991 $664 $845 reversed $817 $997 #
+edge $-1 -1 $-1 $998 0 $846 2 $664 $999 forward @7 unknown #
+vertex $-1 -1 $-1 $845 $1000 #
+intcurve-curve $-1 -1 $-1 forward { ref 103 } F 0 F 2 #
+DXID-attrib $-1 -1 $-1 $-1 $670 @10 ASM ENTITY @36 9691f178-8a05-4bd4-9460-2b86f872bd27 #
+straight-curve $-1 -1 $-1 -125.0000000000000284 0 -79.99999999999991473 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $673 @10 ASM ENTITY @36 c2f600aa-639e-469d-9175-293a1601e79c #
+straight-curve $-1 -1 $-1 124.9999999999999716 0 80.00000000000002842 0 0 -10 F 0 F 16 #
+point $-1 -1 $-1 124.9999999999999716 0 -79.99999999999997158 #
+coedge $-1 -1 $-1 $1001 $679 $1002 $1003 forward $139 $-1 #
+coedge $-1 -1 $-1 $1004 $1005 $679 $855 reversed $1006 $1007 #
+edge $-1 -1 $-1 $860 0 $1008 2 $679 $1009 forward @7 unknown #
+coedge $-1 -1 $-1 $1010 $680 $683 $864 forward $858 $1011 #
+coedge $-1 -1 $-1 $680 $1010 $1004 $1012 reversed $858 $1013 #
+loop $-1 -1 $-1 $-1 $680 $1014 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	9.043476423351185878e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	64.14043624723643688 10 -32.36647944497600804 
+	67.20364532341147878 10 -32.36647944497600804 
+	72.74659508029964172 10 -31.49127685178313385 
+	75.2749581273012609 10 -30.71331899116724884 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $855 $1015 #
+intcurve-curve $-1 -1 $-1 forward { ref 137 } F 0 F 2 #
+coedge $-1 -1 $-1 $683 $682 $1016 $1017 forward $684 $1018 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 105 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $686 0 $1019 0.5 $856 $1020 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 105 } I I I I 
+	} 0 0 #
+face $1021 -1 $-1 $692 $684 $5 $-1 $1022 reversed single #
+point $-1 -1 $-1 64.14043624723643688 10 -32.36647944497600804 #
+coedge $-1 -1 $-1 $694 $1016 $688 $869 reversed $722 $-1 #
+edge $-1 -1 $-1 $697 0 $871 2 $868 $1023 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	4.142367772800602849e-15 
+	spline reversed { ref 74 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1017 $1024 #
+straight-curve $-1 -1 $-1 43.42730820833853755 10 -24.1492995422207386 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $692 @10 ASM ENTITY @36 ca07189f-20ad-492e-bbdc-e1bc13792e1c #
+spline-surface $-1 -1 $-1 forward { ref 74 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	43.37868584205004652 15 22.04194843184733799 
+	39.58614127154761775 15 18.05491439619093796 
+	35.55048486960272669 15 6.28830175437570027 
+	35.55048486960272669 15 -1.345409752917654522 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 35.55048486960272669 15 -1.345409752917654744 #
+coedge $-1 -1 $-1 $701 $1025 $1026 $1027 forward $139 $-1 #
+coedge $-1 -1 $-1 $1028 $1029 $701 $879 reversed $1030 $-1 #
+edge $-1 -1 $-1 $1031 -0.450557713326561915 $883 0.2496043612277329959 $701 $1032 forward @7 unknown #
+coedge $-1 -1 $-1 $1033 $702 $1029 $1034 forward $882 $-1 #
+coedge $-1 -1 $-1 $702 $1033 $704 $886 reversed $882 $-1 #
+loop $-1 -1 $-1 $-1 $702 $1035 #
+vertex $-1 -1 $-1 $703 $1036 #
+straight-curve $-1 -1 $-1 36.5677870053037779 10 -1.491276851783132074 10 0 0 I I #
+coedge $-1 -1 $-1 $705 $704 $1037 $1038 forward $706 $-1 #
+edge $-1 -1 $-1 $707 0 $1039 0.5 $704 $1040 forward @7 unknown #
+face $1041 -1 $-1 $1035 $706 $5 $-1 $1042 reversed single #
+point $-1 -1 $-1 84.02698405922996017 10 -1.491276851783132074 #
+coedge $-1 -1 $-1 $1037 $715 $709 $890 reversed $722 $-1 #
+edge $-1 -1 $-1 $892 0 $718 2 $889 $1043 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	2.264854970235319185e-15 
+	spline reversed { ref 79 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $890 $1044 #
+straight-curve $-1 -1 $-1 84.02698405922996017 10 24.71617857771443738 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $713 @10 ASM ENTITY @36 a9a54946-4ce0-4ef7-8afb-abdfa4ab55bd #
+spline-surface $-1 -1 $-1 forward { ref 79 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	75.17771339472429304 15 28.1197442179089272 
+	72.211749051126219 15 28.99494681110179783 
+	67.44675715485394107 15 29.87014940429466492 
+	64.09181388094793874 15 29.87014940429466492 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 75.17771339472429304 15 28.11974421790893075 #
+coedge $-1 -1 $-1 $1045 $726 $729 $904 forward $900 $1046 #
+coedge $-1 -1 $-1 $726 $1045 $747 $916 reversed $900 $1047 #
+loop $-1 -1 $-1 $-1 $726 $1048 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	7.850061790272402424e-18 0 
+	1.682614530761443487e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-79.68452323412500959 10 -31.2967873866291697 
+	-73.26637088404396536 10 -31.2967873866291697 
+	-66.84821853396292113 10 -30.47020715972478655 
+	-63.93087655665336655 10 -28.86566907220452549 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+intcurve-curve $-1 -1 $-1 forward { ref 146 } F 0 F 2 #
+coedge $-1 -1 $-1 $729 $728 $1049 $1050 forward $730 $-1 #
+edge $-1 -1 $-1 $731 0 $1051 0.5 $898 $1052 forward @7 unknown #
+face $1053 -1 $-1 $735 $730 $5 $-1 $1054 reversed single #
+point $-1 -1 $-1 -79.68452323412500959 10 -31.2967873866291697 #
+coedge $-1 -1 $-1 $737 $1049 $733 $908 reversed $593 $-1 #
+edge $-1 -1 $-1 $739 0 $909 6.000000000000000888 $907 $1055 forward @7 unknown #
+vertex $-1 -1 $-1 $1050 $1056 #
+straight-curve $-1 -1 $-1 -95.58403701046211154 10 -31.2967873866291697 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $735 @10 ASM ENTITY @36 68ec6aec-ede7-41a2-9ab3-7d2de2e5e639 #
+plane-surface $-1 -1 $-1 -95.58403701046211154 10 -1.296787386629163485 1 0 0 0 0 -10 forward_v I I I I #
+straight-curve $-1 -1 $-1 -78.37171934433570186 15 28.70321261337084096 -10 0 0 I I #
+point $-1 -1 $-1 -95.58403701046211154 15 28.70321261337084096 #
+coedge $-1 -1 $-1 $748 $747 $1057 $1058 forward $749 $1059 #
+edge $-1 -1 $-1 $751 0 $1060 0.5 $747 $1061 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	8.029806376876281285e-15 
+	spline reversed { ref 116 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 116 } I I I I 
+	} 0 0 #
+face $1062 -1 $-1 $1048 $749 $5 $-1 $1063 reversed single #
+point $-1 -1 $-1 -63.93087655665337365 10 -28.86566907220452549 #
+coedge $-1 -1 $-1 $1057 $759 $753 $922 reversed $593 $-1 #
+edge $-1 -1 $-1 $924 0 $761 2 $921 $1064 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.578902749039413203e-14 
+	spline reversed { ref 86 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $922 $1065 #
+straight-curve $-1 -1 $-1 -57.70721367172630778 10 -17.77976955842818896 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $757 @10 ASM ENTITY @36 bacb10e3-a700-4976-8521-5ec973698d60 #
+spline-surface $-1 -1 $-1 forward { ref 86 } I I I I #
+straight-curve $-1 -1 $-1 -66.11888303963553426 15 -4.943464858266115591 0 0 10 I I #
+point $-1 -1 $-1 -66.11888303963554847 15 -4.943464858266114703 #
+DXID-attrib $-1 -1 $-1 $-1 $767 @10 ASM ENTITY @36 68b82f17-1b21-4113-919c-5fa82208c0b3 #
+plane-surface $-1 -1 $-1 -3.552713678800500929e-14 15 5.329070518200751394e-14 0 1 0 0 0 10 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $769 @10 ASM ENTITY @36 fa307da4-b892-45da-b45e-3b3632eb0b7b #
+plane-surface $-1 -1 $-1 -3.552713678800500929e-14 0 4.884981308350688778e-14 0 1 0 0 0 10 forward_v I I I I #
+DXID-attrib $-1 -1 $-1 $-1 $771 @10 ASM ENTITY @36 288a4eee-41ae-4d18-adc4-f73798871ae1 #
+straight-curve $-1 -1 $-1 124.9999999999999716 0 -79.99999999999997158 -10 0 2.486899575160350887e-15 F 0 F 25 #
+point $-1 -1 $-1 -125.0000000000000284 0 -79.99999999999991473 #
+coedge $-1 -1 $-1 $1066 $779 $782 $943 forward $939 $-1 #
+coedge $-1 -1 $-1 $779 $1066 $953 $1067 reversed $939 $-1 #
+loop $-1 -1 $-1 $-1 $779 $1068 #
+vertex $-1 -1 $-1 $780 $1069 #
+straight-curve $-1 -1 $-1 -87.60996893914932571 10 5.405090909602787264 0 0 10 I I #
+coedge $-1 -1 $-1 $782 $781 $1070 $1071 reversed $783 $-1 #
+edge $-1 -1 $-1 $784 0 $1072 0.5 $782 $1073 forward @7 unknown #
+face $1074 -1 $-1 $1068 $783 $5 $-1 $1075 forward single #
+point $-1 -1 $-1 -87.60996893914932571 10 -0.2757176945708161853 #
+coedge $-1 -1 $-1 $806 $1070 $786 $947 forward $970 $-1 #
+edge $-1 -1 $-1 $949 -2 $811 -0 $946 $1076 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0.5 
+	0 0.5 
+	1.811290738847951162e-14 
+	spline forward { ref 91 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $947 $1077 #
+straight-curve $-1 -1 $-1 -78.56620880948966601 10 -0.2757176945708161298 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $790 @10 ASM ENTITY @36 b623748a-04c1-4cb6-a258-d30d0034ee32 #
+spline-surface $-1 -1 $-1 forward { ref 91 } I I I I #
+coedge $-1 -1 $-1 $1078 $792 $938 $1067 forward $955 $-1 #
+coedge $-1 -1 $-1 $792 $1078 $794 $958 reversed $955 $-1 #
+loop $-1 -1 $-1 $-1 $792 $1079 #
+straight-curve $-1 -1 $-1 -42.18829079048228436 10 21.89608133298186132 10 0 0 I I #
+coedge $-1 -1 $-1 $795 $794 $1080 $1081 reversed $796 $1082 #
+edge $-1 -1 $-1 $798 0 $1083 0.5 $954 $1084 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	0 0.5 
+	0 0 
+	0 
+	spline forward { ref 124 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	2 0 
+	2 0.5 
+	1.256315496411221764e-15 
+	spline forward { ref 124 } I I I I 
+	} 0 0 #
+face $1085 -1 $-1 $804 $796 $5 $-1 $1086 reversed single #
+point $-1 -1 $-1 -81.14319422277978333 10 21.89608133298186132 #
+coedge $-1 -1 $-1 $1080 $806 $800 $964 forward $970 $-1 #
+edge $-1 -1 $-1 $809 -2 $966 -0 $963 $1087 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0.5 
+	7.771561172376095783e-16 0.5 
+	1.155576474265015354e-14 
+	spline forward { ref 94 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1081 $1088 #
+straight-curve $-1 -1 $-1 -67.52893166200182407 10 19.36771828598023859 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $804 @10 ASM ENTITY @36 7fa7883a-83cb-4aed-85d6-8999112893af #
+spline-surface $-1 -1 $-1 forward { ref 94 } I I I I #
+loop $-1 -1 $-1 $593 $806 $767 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-63.20154106232597258 15 10.61569235405155354 
+	-63.20154106232597258 15 7.212126713857061056 
+	-65.1464357138656851 15 2.836113747892716752 
+	-68.06377769117524679 15 1.280198026660950283 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F -2 F -0 #
+point $-1 -1 $-1 -63.20154106232597258 15 10.61569235405155354 #
+point $-1 -1 $-1 -68.06377769117524679 15 1.280198026660950061 #
+DXID-attrib $-1 -1 $-1 $-1 $816 @10 ASM ENTITY @36 75e19b76-b3a3-448f-8c5e-d224abce412c #
+spline-surface $-1 -1 $-1 forward { ref 102 } I I I I #
+coedge $-1 -1 $-1 $1089 $819 $821 $980 forward $640 $-1 #
+coedge $-1 -1 $-1 $819 $1089 $996 $1090 reversed $640 $-1 #
+edge $-1 -1 $-1 $981 -4.606592450198955468 $998 -3.702216437232990209 $843 $1091 forward @7 unknown #
+coedge $-1 -1 $-1 $821 $820 $1092 $1093 reversed $480 $-1 #
+edge $-1 -1 $-1 $981 0 $1094 0.5 $821 $1095 forward @7 unknown #
+vertex $-1 -1 $-1 $823 $1096 #
+straight-curve $-1 -1 $-1 -87.60996893914932571 10 -7.856659495583597774 0 0 10 I I #
+coedge $-1 -1 $-1 $828 $1092 $824 $984 forward $835 $-1 #
+edge $-1 -1 $-1 $985 -4.57134123463979769 $831 -3.807970083910461767 $983 $1097 forward @7 unknown #
+vertex $-1 -1 $-1 $984 $1098 #
+straight-curve $-1 -1 $-1 -87.60996893914932571 10 -24.48965610624018296 0 10 0 I I #
+point $-1 -1 $-1 -87.60996893914932571 10 -24.48965610624018296 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-69.08484738323359409 15 -22.9337403850084165 
+	-71.02974203477330661 15 -24.00343244335525483 
+	-75.74611156475710061 15 -24.48965610624018296 
+	-79.97625743185595582 15 -24.48965610624018296 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F -2 F -0 #
+point $-1 -1 $-1 -79.97625743185595582 15 -24.48965610624018296 #
+coedge $-1 -1 $-1 $1099 $834 $1100 $1101 forward $835 $-1 #
+coedge $-1 -1 $-1 $844 $1100 $837 $992 reversed $817 $1102 #
+edge $-1 -1 $-1 $846 0 $994 0.5 $991 $1103 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	0 0.5 
+	0 0 
+	0 
+	spline forward { ref 102 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1101 $1104 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-69.37658158096455452 15 -8.930498893922518278 
+	-67.52893166200182407 15 -10.09743568484634224 
+	-66.02163830705855219 15 -13.84135788906028175 
+	-66.02163830705855219 15 -16.66145513379285958 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F -2 F -0 #
+coedge $-1 -1 $-1 $1100 $844 $977 $1090 forward $817 $1105 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0 
+	2 0 
+	9.030687946062881598e-15 
+	spline forward { ref 129 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $978 $1106 #
+intcurve-curve $-1 -1 $-1 forward { ref 130 } F 0 F 2 #
+point $-1 -1 $-1 -69.37658158096455452 10 -8.930498893922518278 #
+coedge $-1 -1 $-1 $1107 $853 $1108 $1109 forward $139 $-1 #
+coedge $-1 -1 $-1 $1110 $1111 $853 $1003 reversed $1112 $-1 #
+edge $-1 -1 $-1 $1008 -1.601306144047830227 $1113 -0.6385832915356743911 $853 $1114 forward @7 unknown #
+coedge $-1 -1 $-1 $1115 $854 $857 $1012 forward $1006 $1116 #
+coedge $-1 -1 $-1 $854 $1115 $1110 $1117 reversed $1006 $1118 #
+loop $-1 -1 $-1 $-1 $854 $1119 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	1.559720557070536243e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	75.2749581273012609 10 -30.71331899116724884 
+	77.3170975114179555 10 -30.12985059570533863 
+	82.27657887284421179 10 -27.99046647901166196 
+	83.78387222778748367 10 -27.2125086183957805 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1003 $1120 #
+intcurve-curve $-1 -1 $-1 forward { ref 161 } F 0 F 2 #
+coedge $-1 -1 $-1 $857 $856 $1121 $1122 forward $858 $1123 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 136 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $860 0 $1124 0.5 $1004 $1125 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	1.598548311397289975e-14 
+	spline reversed { ref 136 } I I I I 
+	} 0 0 #
+face $1126 -1 $-1 $866 $858 $5 $-1 $1127 reversed single #
+point $-1 -1 $-1 75.2749581273012609 10 -30.71331899116724529 #
+coedge $-1 -1 $-1 $868 $1121 $862 $1017 reversed $722 $-1 #
+edge $-1 -1 $-1 $871 0 $1019 2 $1016 $1128 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.811883976188255348e-14 
+	spline reversed { ref 105 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1122 $1129 #
+straight-curve $-1 -1 $-1 64.14043624723643688 10 -32.36647944497600804 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $866 @10 ASM ENTITY @36 d0090943-4579-4b05-81c4-f33c995daf9a #
+spline-surface $-1 -1 $-1 forward { ref 105 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	35.55048486960272669 15 -1.345409752917654522 
+	35.55048486960272669 15 -8.590142329903066809 
+	39.63476363783611589 15 -20.0650207739873494 
+	43.42730820833853755 15 -24.1492995422207386 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 43.42730820833853755 15 -24.1492995422207386 #
+coedge $-1 -1 $-1 $877 $1130 $1131 $1132 forward $139 $-1 #
+coedge $-1 -1 $-1 $1133 $1134 $877 $1027 reversed $1135 $-1 #
+edge $-1 -1 $-1 $1136 -4.155157954987432234 $1031 -2.764558279136540175 $877 $1137 forward @7 unknown #
+coedge $-1 -1 $-1 $1138 $878 $1134 $1139 forward $1030 $-1 #
+coedge $-1 -1 $-1 $878 $1138 $880 $1034 reversed $1030 $-1 #
+loop $-1 -1 $-1 $-1 $878 $1140 #
+vertex $-1 -1 $-1 $879 $1141 #
+straight-curve $-1 -1 $-1 62.2441639619852225 10 1.004766760494197886 0 0 -10 I I #
+coedge $-1 -1 $-1 $881 $880 $1142 $1143 forward $882 $-1 #
+edge $-1 -1 $-1 $883 0 $1144 0.5 $880 $1145 forward @7 unknown #
+face $1146 -1 $-1 $1140 $882 $5 $-1 $1147 reversed single #
+point $-1 -1 $-1 62.2441639619852225 10 -1.491276851783132074 #
+coedge $-1 -1 $-1 $1142 $889 $885 $1038 reversed $722 $-1 #
+edge $-1 -1 $-1 $1039 0 $892 2.620745542949757034 $1037 $1148 forward @7 unknown #
+vertex $-1 -1 $-1 $1038 $1149 #
+straight-curve $-1 -1 $-1 84.02698405922996017 10 -1.491276851783132074 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $887 @10 ASM ENTITY @36 12ea84ec-d001-414a-821e-cb7a7d4ee697 #
+plane-surface $-1 -1 $-1 84.02698405922996017 10 11.61245086296565354 -1 0 0 0 0 10 forward_v I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	84.02698405922996017 15 24.71617857771443738 
+	82.51969070428668829 15 25.39689170575333321 
+	77.36571987770645364 15 27.48765345615852596 
+	75.17771339472429304 15 28.1197442179089272 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 84.02698405922996017 15 24.71617857771443738 #
+coedge $-1 -1 $-1 $899 $898 $1150 $1151 forward $900 $1152 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 145 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	1.999999999999999778 0.5 
+	1.999999999999999778 0 
+	7.93800782306224225e-15 
+	spline reversed { ref 145 } I I I I 
+	} 0 0 #
+face $1153 -1 $-1 $905 $900 $5 $-1 $1154 reversed single #
+coedge $-1 -1 $-1 $907 $1150 $903 $1050 reversed $593 $-1 #
+edge $-1 -1 $-1 $909 0 $1051 1.589951377633711083 $1049 $1155 forward @7 unknown #
+vertex $-1 -1 $-1 $1151 $1156 #
+straight-curve $-1 -1 $-1 -79.68452323412500959 10 -31.2967873866291697 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $905 @10 ASM ENTITY @36 77977f99-f3e5-49e0-b8f9-2c77a52e9d8e #
+plane-surface $-1 -1 $-1 -87.63428012229356057 10 -31.2967873866291697 0 0 1 10 0 0 forward_v I I I I #
+straight-curve $-1 -1 $-1 -95.58403701046211154 15 28.70321261337084096 0 0 -10 I I #
+point $-1 -1 $-1 -95.58403701046211154 15 -31.2967873866291697 #
+coedge $-1 -1 $-1 $1150 $921 $915 $1058 reversed $593 $-1 #
+edge $-1 -1 $-1 $1060 0 $924 2 $1057 $1157 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.527953028289418705e-14 
+	spline reversed { ref 116 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1058 $1158 #
+straight-curve $-1 -1 $-1 -63.93087655665337365 10 -28.86566907220452549 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $919 @10 ASM ENTITY @36 d8d96b73-a1cc-4faf-8fde-bc0c4f8948b7 #
+spline-surface $-1 -1 $-1 forward { ref 116 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-57.70721367172630067 15 -17.77976955842818896 
+	-57.70721367172630067 15 -13.54962369132932665 
+	-62.18047137026762528 15 -6.83973714351733264 
+	-66.11888303963553426 15 -4.943464858266115591 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 -57.70721367172630778 15 -17.77976955842818896 #
+coedge $-1 -1 $-1 $938 $937 $1159 $1160 reversed $939 $-1 #
+edge $-1 -1 $-1 $940 0 $1161 0.5 $938 $1162 forward @7 unknown #
+face $1163 -1 $-1 $1079 $939 $5 $-1 $1164 forward single #
+point $-1 -1 $-1 -87.60996893914932571 10 21.89608133298186132 #
+coedge $-1 -1 $-1 $946 $1159 $942 $1071 forward $970 $-1 #
+edge $-1 -1 $-1 $1072 -4.606592450198955468 $949 -3.702216437232990209 $1070 $1165 forward @7 unknown #
+vertex $-1 -1 $-1 $1071 $1166 #
+straight-curve $-1 -1 $-1 -87.60996893914932571 10 -0.2757176945708161853 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $944 @10 ASM ENTITY @36 bda6431f-3902-46e7-a200-b36ec2d2ecf1 #
+plane-surface $-1 -1 $-1 -83.08808887431949586 10 -0.2757176945708161853 0 0 1 10 0 0 forward_v I I I I #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-68.06377769117524679 15 1.280198026660950283 
+	-69.96004997642646117 15 0.3077507008910984609 
+	-74.43330767496777867 15 -0.2757176945708161853 
+	-78.56620880948966601 15 -0.2757176945708161853 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F -2 F -0 #
+point $-1 -1 $-1 -78.56620880948966601 15 -0.2757176945708161298 #
+coedge $-1 -1 $-1 $954 $953 $1167 $1168 reversed $955 $-1 #
+face $1169 -1 $-1 $961 $955 $5 $-1 $1170 forward single #
+coedge $-1 -1 $-1 $1167 $963 $957 $1081 forward $970 $-1 #
+edge $-1 -1 $-1 $966 -2 $1083 -0 $1080 $1171 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0.5 
+	3.330669073875469621e-16 0.5 
+	3.623767952376510696e-14 
+	spline forward { ref 124 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1168 $1172 #
+straight-curve $-1 -1 $-1 -81.14319422277978333 10 21.89608133298186132 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $961 @10 ASM ENTITY @36 e49e712f-d75d-4024-81bc-f46d4b248460 #
+spline-surface $-1 -1 $-1 forward { ref 124 } I I I I #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-67.52893166200182407 15 19.36771828598023859 
+	-65.29230281273116532 15 17.76318019845998109 
+	-63.20154106232597258 15 13.77614616280357929 
+	-63.20154106232597258 15 10.61569235405155354 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F -2 F -0 #
+point $-1 -1 $-1 -67.52893166200182407 15 19.36771828598023859 #
+coedge $-1 -1 $-1 $977 $976 $1099 $1173 reversed $640 $-1 #
+edge $-1 -1 $-1 $998 0 $1174 0.5 $977 $1175 forward @7 unknown #
+straight-curve $-1 -1 $-1 -41.54404443715976214 10 -6.936981876094314714 10 0 0 I I #
+coedge $-1 -1 $-1 $983 $1099 $979 $1093 forward $835 $-1 #
+edge $-1 -1 $-1 $1094 -0.09196776194892830603 $985 1.663299661065658519 $1092 $1176 forward @7 unknown #
+vertex $-1 -1 $-1 $1093 $1177 #
+straight-curve $-1 -1 $-1 -87.60996893914932571 10 -6.936981876094314714 0 10 0 I I #
+point $-1 -1 $-1 -87.60996893914932571 10 -6.936981876094314714 #
+straight-curve $-1 -1 $-1 -41.89655659275133814 15 -24.48965610624018296 10 0 0 I I #
+point $-1 -1 $-1 -87.60996893914932571 15 -24.48965610624018296 #
+coedge $-1 -1 $-1 $1092 $990 $1089 $1173 forward $835 $-1 #
+coedge $-1 -1 $-1 $991 $996 $990 $1101 reversed $817 $1178 #
+edge $-1 -1 $-1 $994 -2 $1174 -0 $990 $1179 forward @7 unknown #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	2 0 
+	2 0.5 
+	0 
+	spline forward { ref 129 } I I I I 
+	} 0 0 #
+straight-curve $-1 -1 $-1 -69.37658158096455452 10 -8.930498893922518278 0 10 0 F 0 F 0.5 #
+point $-1 -1 $-1 -69.37658158096455452 15 -8.930498893922518278 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	0 0.5 
+	0 0 
+	0 
+	spline forward { ref 129 } I I I I 
+	} 0 0 #
+point $-1 -1 $-1 -78.56620880948966601 10 -6.936981876094314714 #
+coedge $-1 -1 $-1 $1180 $1001 $1181 $1182 forward $139 $-1 #
+coedge $-1 -1 $-1 $1183 $1184 $1001 $1109 reversed $1185 $-1 #
+edge $-1 -1 $-1 $1113 -4.206211439590347823 $1186 -4.138140126786458595 $1001 $1187 forward @7 unknown #
+coedge $-1 -1 $-1 $1188 $1002 $1005 $1117 forward $1112 $-1 #
+coedge $-1 -1 $-1 $1002 $1188 $1183 $1189 reversed $1112 $-1 #
+loop $-1 -1 $-1 $-1 $1002 $1190 #
+vertex $-1 -1 $-1 $1109 $1191 #
+straight-curve $-1 -1 $-1 83.78387222778748367 10 -11.19944717791747202 0 0 10 I I #
+coedge $-1 -1 $-1 $1005 $1004 $1192 $1193 forward $1006 $1194 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	1.244407023894054268e-15 
+	spline reversed { ref 160 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $1008 0 $1195 0.5 $1110 $1196 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	1.999999999999996003 0.5 
+	1.999999999999996003 0 
+	2.233333347270524281e-14 
+	spline reversed { ref 160 } I I I I 
+	} 0 0 #
+face $1197 -1 $-1 $1014 $1006 $5 $-1 $1198 reversed single #
+point $-1 -1 $-1 83.78387222778746946 10 -27.2125086183957734 #
+coedge $-1 -1 $-1 $1016 $1192 $1010 $1122 reversed $722 $-1 #
+edge $-1 -1 $-1 $1019 0 $1124 2 $1121 $1199 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	9.206629654409967876e-15 
+	spline reversed { ref 136 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1193 $1200 #
+straight-curve $-1 -1 $-1 75.2749581273012609 10 -30.71331899116724529 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $1014 @10 ASM ENTITY @36 3ad72ef1-7590-4779-9458-1ad270720969 #
+spline-surface $-1 -1 $-1 forward { ref 136 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	43.42730820833853755 15 -24.1492995422207386 
+	47.07398567997549321 15 -28.08771121158864403 
+	57.77090626344389079 15 -32.36647944497600804 
+	64.14043624723643688 15 -32.36647944497600804 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 64.14043624723643688 15 -32.36647944497600804 #
+coedge $-1 -1 $-1 $1025 $1201 $1202 $1203 forward $139 $-1 #
+coedge $-1 -1 $-1 $1204 $1205 $1025 $1132 reversed $1206 $-1 #
+edge $-1 -1 $-1 $1207 -1.438807308140176211 $1136 0.112246176462741154 $1025 $1208 forward @7 unknown #
+coedge $-1 -1 $-1 $1209 $1026 $1205 $1210 forward $1135 $-1 #
+coedge $-1 -1 $-1 $1026 $1209 $1028 $1139 reversed $1135 $-1 #
+loop $-1 -1 $-1 $-1 $1026 $1211 #
+vertex $-1 -1 $-1 $1027 $1212 #
+straight-curve $-1 -1 $-1 34.59858117061982341 10 5.510343893759817036 -10 0 0 I I #
+coedge $-1 -1 $-1 $1029 $1028 $1213 $1214 forward $1030 $-1 #
+edge $-1 -1 $-1 $1031 0 $1215 0.5 $1028 $1216 forward @7 unknown #
+face $1217 -1 $-1 $1211 $1030 $5 $-1 $1218 reversed single #
+point $-1 -1 $-1 62.2441639619852225 10 5.510343893759817036 #
+coedge $-1 -1 $-1 $1213 $1037 $1033 $1143 reversed $722 $-1 #
+edge $-1 -1 $-1 $1144 0 $1039 2.178282009724473056 $1142 $1219 forward @7 unknown #
+vertex $-1 -1 $-1 $1143 $1220 #
+straight-curve $-1 -1 $-1 62.2441639619852225 10 -1.491276851783132074 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $1035 @10 ASM ENTITY @36 4a47a345-1ff9-4309-aa73-c01f020c46c7 #
+plane-surface $-1 -1 $-1 73.13557401060759844 10 -1.491276851783132074 0 0 1 10 0 0 forward_v I I I I #
+straight-curve $-1 -1 $-1 84.02698405922996017 15 -1.491276851783132074 0 0 10 I I #
+point $-1 -1 $-1 84.02698405922996017 15 -1.491276851783132074 #
+coedge $-1 -1 $-1 $1049 $1057 $1045 $1151 reversed $593 $-1 #
+edge $-1 -1 $-1 $1051 0 $1060 2 $1150 $1221 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	9.400226633872712166e-15 
+	spline reversed { ref 145 } I I I I 
+	} 0 0 #
+DXID-attrib $-1 -1 $-1 $-1 $1048 @10 ASM ENTITY @36 42978576-dae4-4a54-b71d-e206df624424 #
+spline-surface $-1 -1 $-1 forward { ref 145 } I I I I #
+straight-curve $-1 -1 $-1 -95.58403701046211154 15 -31.2967873866291697 10 0 0 I I #
+point $-1 -1 $-1 -79.68452323412500959 15 -31.2967873866291697 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-63.93087655665336655 15 -28.86566907220452549 
+	-60.6731780153243534 15 -27.16388625210728947 
+	-57.70721367172630067 15 -21.57231412893062128 
+	-57.70721367172630067 15 -17.77976955842818896 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 -63.93087655665337365 15 -28.86566907220452549 #
+coedge $-1 -1 $-1 $1070 $1167 $1066 $1160 forward $970 $-1 #
+edge $-1 -1 $-1 $1161 -1.649099042337907273 $1072 0.5680808604173603893 $1159 $1222 forward @7 unknown #
+vertex $-1 -1 $-1 $1160 $1223 #
+straight-curve $-1 -1 $-1 -87.60996893914932571 10 21.89608133298186132 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $1068 @10 ASM ENTITY @36 c68488e5-c2b7-49e3-8385-44111c8659b8 #
+plane-surface $-1 -1 $-1 -87.60996893914932571 10 10.81018181920552124 1 0 0 0 0 -10 forward_v I I I I #
+straight-curve $-1 -1 $-1 -41.54404443715976214 15 -0.2757176945708161853 10 0 0 I I #
+point $-1 -1 $-1 -87.60996893914932571 15 -0.2757176945708161853 #
+coedge $-1 -1 $-1 $1159 $1080 $1078 $1168 forward $970 $-1 #
+edge $-1 -1 $-1 $1083 3.895490343229749186 $1161 4.542167814866703068 $1167 $1224 forward @7 unknown #
+DXID-attrib $-1 -1 $-1 $-1 $1079 @10 ASM ENTITY @36 86bb99e5-353a-4506-b61c-f003f4c018f4 #
+plane-surface $-1 -1 $-1 -84.37658158096454031 10 21.89608133298186132 0 0 -1 -10 0 0 forward_v I I I I #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-81.14319422277978333 15 21.89608133298186132 
+	-75.89197866362256661 15 21.89608133298186132 
+	-69.86280524384946489 15 20.92363400721200861 
+	-67.52893166200182407 15 19.36771828598023859 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F -2 F -0 #
+point $-1 -1 $-1 -81.14319422277978333 15 21.89608133298186132 #
+edge $-1 -1 $-1 $1174 3.702216437232990209 $1094 4.606592450198955468 $1099 $1225 forward @7 unknown #
+vertex $-1 -1 $-1 $1173 $1226 #
+straight-curve $-1 -1 $-1 -78.56620880948966601 10 -6.936981876094314714 0 10 0 F 0 F 0.5 #
+straight-curve $-1 -1 $-1 -87.60996893914932571 15 -7.856659495583597774 0 0 -10 I I #
+point $-1 -1 $-1 -87.60996893914932571 15 -6.936981876094314714 #
+pcurve $-1 -1 $-1 0 reversed { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0.5 
+	0 0.5 
+	1.809379643303472398e-14 
+	spline forward { ref 129 } I I I I 
+	} 0 0 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-78.56620880948966601 15 -6.936981876094314714 
+	-74.82228660527573538 15 -6.936981876094314714 
+	-71.2728538662157689 15 -7.714939736710197948 
+	-69.37658158096455452 15 -8.930498893922518278 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F -2 F -0 #
+coedge $-1 -1 $-1 $1227 $1107 $1228 $1229 forward $139 $-1 #
+coedge $-1 -1 $-1 $1230 $1231 $1107 $1182 reversed $1232 $1233 #
+edge $-1 -1 $-1 $1186 0 $1234 2 $1107 $1235 forward @7 unknown #
+coedge $-1 -1 $-1 $1236 $1108 $1111 $1189 forward $1185 $-1 #
+coedge $-1 -1 $-1 $1108 $1236 $1230 $1237 reversed $1185 $-1 #
+loop $-1 -1 $-1 $-1 $1108 $1238 #
+vertex $-1 -1 $-1 $1182 $1239 #
+straight-curve $-1 -1 $-1 41.72175783188400544 10 -17.58528009327421415 -10 0 0 I I #
+coedge $-1 -1 $-1 $1111 $1110 $1240 $1241 forward $1112 $-1 #
+edge $-1 -1 $-1 $1113 0 $1242 0.5 $1183 $1243 forward @7 unknown #
+face $1244 -1 $-1 $1119 $1112 $5 $-1 $1245 reversed single #
+point $-1 -1 $-1 83.78387222778748367 10 -17.58528009327421415 #
+coedge $-1 -1 $-1 $1121 $1240 $1115 $1193 reversed $722 $-1 #
+edge $-1 -1 $-1 $1124 0 $1195 2 $1192 $1246 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	2.651702948503192775e-15 
+	spline reversed { ref 160 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1241 $1247 #
+straight-curve $-1 -1 $-1 83.78387222778746946 10 -27.2125086183957734 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $1119 @10 ASM ENTITY @36 2ced3744-b98a-483f-8310-d6361e22054f #
+spline-surface $-1 -1 $-1 forward { ref 160 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	64.14043624723643688 15 -32.36647944497600804 
+	67.20364532341147878 15 -32.36647944497600804 
+	72.74659508029964172 15 -31.49127685178313385 
+	75.2749581273012609 15 -30.71331899116724884 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 75.2749581273012609 15 -30.71331899116724529 #
+coedge $-1 -1 $-1 $1130 $1248 $1249 $1250 forward $139 $-1 #
+coedge $-1 -1 $-1 $1251 $1252 $1130 $1203 reversed $1253 $1254 #
+edge $-1 -1 $-1 $1255 0 $1207 2 $1130 $1256 forward @7 unknown #
+coedge $-1 -1 $-1 $1257 $1131 $1252 $1258 forward $1206 $-1 #
+coedge $-1 -1 $-1 $1131 $1257 $1133 $1210 reversed $1206 $-1 #
+loop $-1 -1 $-1 $-1 $1131 $1259 #
+vertex $-1 -1 $-1 $1132 $1260 #
+straight-curve $-1 -1 $-1 76.1501607204941422 10 6.632805658387228576 0 0 -10 I I #
+coedge $-1 -1 $-1 $1134 $1133 $1261 $1262 forward $1135 $-1 #
+edge $-1 -1 $-1 $1136 0 $1263 0.5 $1133 $1264 forward @7 unknown #
+face $1265 -1 $-1 $1259 $1135 $5 $-1 $1266 reversed single #
+point $-1 -1 $-1 76.1501607204941422 10 5.510343893759817036 #
+coedge $-1 -1 $-1 $1261 $1142 $1138 $1214 reversed $722 $-1 #
+edge $-1 -1 $-1 $1215 0 $1144 0.7001620745542949109 $1213 $1267 forward @7 unknown #
+vertex $-1 -1 $-1 $1214 $1268 #
+straight-curve $-1 -1 $-1 62.2441639619852225 10 5.510343893759817036 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $1140 @10 ASM ENTITY @36 742a428f-b3ce-46dc-9978-55ac00e1fab4 #
+plane-surface $-1 -1 $-1 62.2441639619852225 10 2.009533520988342481 1 0 0 0 0 -10 forward_v I I I I #
+straight-curve $-1 -1 $-1 62.2441639619852225 15 -1.491276851783132074 10 0 0 I I #
+point $-1 -1 $-1 62.2441639619852225 15 -1.491276851783132074 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	-79.68452323412500959 15 -31.2967873866291697 
+	-73.26637088404396536 15 -31.2967873866291697 
+	-66.84821853396292113 15 -30.47020715972478655 
+	-63.93087655665336655 15 -28.86566907220452549 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+straight-curve $-1 -1 $-1 -87.60996893914932571 15 5.405090909602787264 0 0 -10 I I #
+point $-1 -1 $-1 -87.60996893914932571 15 21.89608133298186132 #
+straight-curve $-1 -1 $-1 -42.18829079048228436 15 21.89608133298186132 -10 0 0 I I #
+straight-curve $-1 -1 $-1 -41.54404443715976214 15 -6.936981876094314714 -10 0 0 I I #
+point $-1 -1 $-1 -78.56620880948966601 15 -6.936981876094314714 #
+coedge $-1 -1 $-1 $1248 $1180 $1269 $1270 forward $139 $-1 #
+coedge $-1 -1 $-1 $1271 $1272 $1180 $1229 reversed $1273 $1274 #
+edge $-1 -1 $-1 $1234 0 $1275 2 $1180 $1276 forward @7 unknown #
+coedge $-1 -1 $-1 $1277 $1181 $1184 $1237 forward $1232 $1278 #
+coedge $-1 -1 $-1 $1181 $1277 $1271 $1279 reversed $1232 $1280 #
+loop $-1 -1 $-1 $-1 $1181 $1281 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	2.503453396597455426e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	83.10315909974859494 10 -17.58528009327421415 
+	81.59586574480530885 10 -18.89808398306352899 
+	78.43541193605329909 10 -21.28057993119966795 
+	75.51806995874372319 10 -22.64200618727745962 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1229 $1282 #
+intcurve-curve $-1 -1 $-1 forward { ref 190 } F 0 F 2 #
+coedge $-1 -1 $-1 $1184 $1183 $1283 $1284 forward $1185 $-1 #
+edge $-1 -1 $-1 $1186 0 $1285 0.5 $1230 $1286 forward @7 unknown #
+face $1287 -1 $-1 $1190 $1185 $5 $-1 $1288 reversed single #
+point $-1 -1 $-1 83.10315909974859494 10 -17.58528009327421415 #
+coedge $-1 -1 $-1 $1192 $1283 $1188 $1241 reversed $722 $-1 #
+edge $-1 -1 $-1 $1195 4.440892098500626162e-16 $1242 0.9627228525121562797 $1240 $1289 forward @7 unknown #
+vertex $-1 -1 $-1 $1284 $1290 #
+straight-curve $-1 -1 $-1 83.78387222778748367 10 -17.58528009327421415 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $1190 @10 ASM ENTITY @36 30de49d6-ea18-4939-8275-4df62e8746b6 #
+plane-surface $-1 -1 $-1 83.78387222778748367 10 -22.39889435583499733 -1 0 0 0 0 10 forward_v I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	75.2749581273012609 15 -30.71331899116724884 
+	77.3170975114179555 15 -30.12985059570533863 
+	82.27657887284421179 15 -27.99046647901166196 
+	83.78387222778748367 15 -27.2125086183957805 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 83.78387222778746946 15 -27.2125086183957734 #
+coedge $-1 -1 $-1 $1201 $1227 $1291 $1292 forward $139 $-1 #
+coedge $-1 -1 $-1 $1293 $1294 $1201 $1250 reversed $1295 $1296 #
+edge $-1 -1 $-1 $1297 0 $1255 2 $1201 $1298 forward @7 unknown #
+coedge $-1 -1 $-1 $1299 $1202 $1294 $1300 forward $1253 $1301 #
+coedge $-1 -1 $-1 $1202 $1299 $1204 $1258 reversed $1253 $1302 #
+loop $-1 -1 $-1 $-1 $1202 $1303 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	1.808847084925258042e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	63.80007968321699252 10 22.96577339132870321 
+	67.15502295712298064 10 22.96577339132870321 
+	73.8649095049349711 10 21.99332606555884695 
+	76.1501607204941422 10 21.02087873978899069 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1203 $1304 #
+intcurve-curve $-1 -1 $-1 forward { ref 194 } F 0 F 2 #
+coedge $-1 -1 $-1 $1205 $1204 $1305 $1306 forward $1206 $-1 #
+edge $-1 -1 $-1 $1207 0 $1307 0.5 $1204 $1308 forward @7 unknown #
+face $1309 -1 $-1 $1303 $1206 $5 $-1 $1310 reversed single #
+point $-1 -1 $-1 76.1501607204941422 10 21.02087873978899069 #
+coedge $-1 -1 $-1 $1305 $1213 $1209 $1262 reversed $722 $-1 #
+edge $-1 -1 $-1 $1263 0 $1215 1.390599675850891614 $1261 $1311 forward @7 unknown #
+vertex $-1 -1 $-1 $1262 $1312 #
+straight-curve $-1 -1 $-1 76.1501607204941422 10 5.510343893759817036 0 10 0 I I #
+DXID-attrib $-1 -1 $-1 $-1 $1211 @10 ASM ENTITY @36 0325e4d9-b4d6-459c-ac8e-08f98d2ea858 #
+plane-surface $-1 -1 $-1 69.19716234123968945 10 5.510343893759817036 0 0 -1 -10 0 0 forward_v I I I I #
+straight-curve $-1 -1 $-1 62.2441639619852225 15 5.510343893759817036 0 0 -10 I I #
+point $-1 -1 $-1 62.2441639619852225 15 5.510343893759817036 #
+coedge $-1 -1 $-1 $1313 $1314 $1227 $1270 reversed $1315 $1316 #
+edge $-1 -1 $-1 $1275 0 $1317 2 $1227 $1318 forward @7 unknown #
+coedge $-1 -1 $-1 $1319 $1228 $1231 $1279 forward $1273 $1320 #
+coedge $-1 -1 $-1 $1228 $1319 $1313 $1321 reversed $1273 $1322 #
+loop $-1 -1 $-1 $-1 $1228 $1323 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	1.658167202842149636e-14 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	75.51806995874372319 10 -22.64200618727745962 
+	73.0869516443191003 10 -23.85756534448978172 
+	66.81466639310353628 10 -25.46210343201003923 
+	63.21661128775507166 10 -25.46210343201003923 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1270 $1324 #
+intcurve-curve $-1 -1 $-1 forward { ref 197 } F 0 F 2 #
+coedge $-1 -1 $-1 $1231 $1230 $1325 $1326 forward $1232 $1327 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 189 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $1234 0 $1328 0.5 $1271 $1329 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 189 } I I I I 
+	} 0 0 #
+face $1330 -1 $-1 $1238 $1232 $5 $-1 $1331 reversed single #
+point $-1 -1 $-1 75.51806995874372319 10 -22.64200618727745962 #
+coedge $-1 -1 $-1 $1240 $1325 $1236 $1284 reversed $722 $-1 #
+edge $-1 -1 $-1 $1242 0 $1285 0.06807131280388922789 $1283 $1332 forward @7 unknown #
+vertex $-1 -1 $-1 $1326 $1333 #
+straight-curve $-1 -1 $-1 83.10315909974859494 10 -17.58528009327421415 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $1238 @10 ASM ENTITY @36 97b1bdf6-f975-4efe-9e33-2d11c3b9c083 #
+plane-surface $-1 -1 $-1 83.4435156637680393 10 -17.58528009327421415 0 0 -1 -10 0 0 forward_v I I I I #
+straight-curve $-1 -1 $-1 83.78387222778748367 15 -27.2125086183957805 0 0 10 I I #
+point $-1 -1 $-1 83.78387222778748367 15 -17.58528009327421415 #
+coedge $-1 -1 $-1 $1334 $1335 $1248 $1292 reversed $1336 $1337 #
+edge $-1 -1 $-1 $1317 0 $1297 2 $1248 $1338 forward @7 unknown #
+coedge $-1 -1 $-1 $1339 $1249 $1335 $1340 forward $1295 $1341 #
+coedge $-1 -1 $-1 $1249 $1339 $1251 $1300 reversed $1295 $1342 #
+loop $-1 -1 $-1 $-1 $1249 $1343 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	1.387778780781445676e-16 0 
+	9.873558318806350657e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	49.35923689553465721 10 16.59624340753615712 
+	51.93622230882476742 10 19.70807484999969006 
+	59.22957725209867874 10 22.96577339132870321 
+	63.80007968321699252 10 22.96577339132870321 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1250 $1344 #
+intcurve-curve $-1 -1 $-1 forward { ref 202 } F 0 F 2 #
+coedge $-1 -1 $-1 $1252 $1251 $1345 $1346 forward $1253 $1347 #
+edge $-1 -1 $-1 $1255 0 $1348 0.5 $1251 $1349 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	9.059419880941276739e-15 
+	spline reversed { ref 193 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	4.529709940470638369e-15 
+	spline reversed { ref 193 } I I I I 
+	} 0 0 #
+face $1350 -1 $-1 $1343 $1253 $5 $-1 $1351 reversed single #
+point $-1 -1 $-1 63.80007968321698542 10 22.96577339132870321 #
+coedge $-1 -1 $-1 $1345 $1261 $1257 $1306 reversed $722 $-1 #
+edge $-1 -1 $-1 $1307 0 $1263 1.551053484602917365 $1305 $1352 forward @7 unknown #
+vertex $-1 -1 $-1 $1306 $1353 #
+straight-curve $-1 -1 $-1 76.1501607204941422 10 21.02087873978899069 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $1259 @10 ASM ENTITY @36 1755bbf6-179e-48e9-a9a3-d969db35d6d0 #
+plane-surface $-1 -1 $-1 76.1501607204941422 10 13.26561131677440386 1 0 0 0 0 -10 forward_v I I I I #
+straight-curve $-1 -1 $-1 76.1501607204941422 15 5.510343893759817036 -10 0 0 I I #
+point $-1 -1 $-1 76.1501607204941422 15 5.510343893759817036 #
+coedge $-1 -1 $-1 $1354 $1269 $1272 $1321 forward $1315 $1355 #
+coedge $-1 -1 $-1 $1269 $1354 $1334 $1356 reversed $1315 $1357 #
+loop $-1 -1 $-1 $-1 $1269 $1358 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	9.670191727018986091e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	63.21661128775507166 10 -25.46210343201003923 
+	54.56183008840337578 10 -25.46210343201003923 
+	43.8649095049349711 10 -12.43130926669398839 
+	43.8649095049349711 10 -1.588521584360118588 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1292 $1359 #
+intcurve-curve $-1 -1 $-1 forward { ref 207 } F 0 F 2 #
+coedge $-1 -1 $-1 $1272 $1271 $1360 $1361 forward $1273 $1362 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 196 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $1275 0 $1363 0.5 $1313 $1364 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 196 } I I I I 
+	} 0 0 #
+face $1365 -1 $-1 $1281 $1273 $5 $-1 $1366 reversed single #
+point $-1 -1 $-1 63.21661128775507166 10 -25.46210343201003923 #
+coedge $-1 -1 $-1 $1283 $1360 $1277 $1326 reversed $722 $-1 #
+edge $-1 -1 $-1 $1285 0 $1328 2 $1325 $1367 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.401256747343351402e-14 
+	spline reversed { ref 189 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1361 $1368 #
+straight-curve $-1 -1 $-1 75.51806995874372319 10 -22.64200618727745962 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $1281 @10 ASM ENTITY @36 4088fab7-27bb-4199-81c6-b42a325ada5f #
+spline-surface $-1 -1 $-1 forward { ref 189 } I I I I #
+straight-curve $-1 -1 $-1 83.78387222778748367 15 -17.58528009327421415 -10 0 0 I I #
+point $-1 -1 $-1 83.10315909974859494 15 -17.58528009327421415 #
+coedge $-1 -1 $-1 $1369 $1291 $1314 $1356 forward $1336 $1370 #
+coedge $-1 -1 $-1 $1291 $1369 $1293 $1340 reversed $1336 $1371 #
+loop $-1 -1 $-1 $-1 $1291 $1372 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-2 1 0 1 
+	2 0 
+	0 0 
+	8.504617912691087074e-15 
+	spline reversed { sumsur 
+	intcurve forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	43.8649095049349711 10 -1.588521584360118588 
+	43.8649095049349711 10 4.440651835412978699 
+	46.68500674966755071 10 13.48441196507262241 
+	49.35923689553465721 10 16.59624340753615712 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } F 0 F 2 
+	straight 0 0 0 0 10 0 I I 
+	0 0 0 
+	none F 0 F 2 F 0 F 0.5 OPEN OPEN NON_SINGULAR NON_SINGULAR 
+	0 
+	1 1 
+	0 
+	0 
+	0 
+	0 
+	} I I I I 
+	} 0 0 #
+intcurve-curve $-1 -1 $-1 forward { ref 213 } F 0 F 2 #
+coedge $-1 -1 $-1 $1294 $1293 $1373 $1374 forward $1295 $1375 #
+edge $-1 -1 $-1 $1297 0 $1376 0.5 $1293 $1377 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 201 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	1.999999999999999556 0.5 
+	1.999999999999998668 0 
+	9.059419880941276739e-15 
+	spline reversed { ref 201 } I I I I 
+	} 0 0 #
+face $1378 -1 $-1 $1372 $1295 $5 $-1 $1379 reversed single #
+point $-1 -1 $-1 49.35923689553465721 10 16.59624340753615712 #
+coedge $-1 -1 $-1 $1373 $1305 $1299 $1346 reversed $722 $-1 #
+edge $-1 -1 $-1 $1348 0 $1307 2 $1345 $1380 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	8.907048852540321104e-15 
+	spline reversed { ref 193 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1346 $1381 #
+straight-curve $-1 -1 $-1 63.80007968321698542 10 22.96577339132870321 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $1303 @10 ASM ENTITY @36 66ea3ff7-415c-4846-8661-f8ded594fe29 #
+spline-surface $-1 -1 $-1 forward { ref 193 } I I I I #
+straight-curve $-1 -1 $-1 76.1501607204941422 15 21.02087873978899069 0 0 -10 I I #
+point $-1 -1 $-1 76.1501607204941422 15 21.02087873978899069 #
+coedge $-1 -1 $-1 $1314 $1313 $1382 $1383 forward $1315 $1384 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	0 0 
+	0 0.5 
+	0 
+	spline reversed { ref 206 } I I I I 
+	} 0 0 #
+edge $-1 -1 $-1 $1317 0 $1385 0.5 $1334 $1386 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	8.493206138382447929e-16 
+	spline reversed { ref 206 } I I I I 
+	} 0 0 #
+face $1387 -1 $-1 $1323 $1315 $5 $-1 $1388 reversed single #
+point $-1 -1 $-1 43.8649095049349711 10 -1.5885215843601177 #
+coedge $-1 -1 $-1 $1325 $1382 $1319 $1361 reversed $722 $-1 #
+edge $-1 -1 $-1 $1328 0 $1363 2 $1360 $1389 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.80998912089238349e-14 
+	spline reversed { ref 196 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1383 $1390 #
+straight-curve $-1 -1 $-1 63.21661128775507166 10 -25.46210343201003923 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $1323 @10 ASM ENTITY @36 be50bdb5-088c-4e83-b407-79be58fc84ea #
+spline-surface $-1 -1 $-1 forward { ref 196 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	83.10315909974859494 15 -17.58528009327421415 
+	81.59586574480530885 15 -18.89808398306352899 
+	78.43541193605329909 15 -21.28057993119966795 
+	75.51806995874372319 15 -22.64200618727745962 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 75.51806995874372319 15 -22.64200618727745962 #
+coedge $-1 -1 $-1 $1335 $1334 $1391 $1392 forward $1336 $1393 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 0.5 1 
+	6.905318610823803561e-17 0 
+	6.905318610823803561e-17 0.5 
+	2.831068712794148981e-16 
+	spline reversed { ref 212 } I I I I 
+	} 0 0 #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	-0.5 1 -0 1 
+	2 0.5 
+	2 0 
+	0 
+	spline reversed { ref 212 } I I I I 
+	} 0 0 #
+face $1394 -1 $-1 $1358 $1336 $5 $-1 $1395 reversed single #
+coedge $-1 -1 $-1 $1391 $1345 $1339 $1374 reversed $722 $-1 #
+edge $-1 -1 $-1 $1376 0 $1348 2 $1373 $1396 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.811883976188255348e-14 
+	spline reversed { ref 201 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1374 $1397 #
+straight-curve $-1 -1 $-1 49.35923689553465721 10 16.59624340753615712 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $1343 @10 ASM ENTITY @36 16398a73-e155-4af5-b07a-144902eb0445 #
+spline-surface $-1 -1 $-1 forward { ref 201 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	63.80007968321699252 15 22.96577339132870321 
+	67.15502295712298064 15 22.96577339132870321 
+	73.8649095049349711 15 21.99332606555884695 
+	76.1501607204941422 15 21.02087873978899069 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 63.80007968321698542 15 22.96577339132870321 #
+coedge $-1 -1 $-1 $1360 $1391 $1354 $1383 reversed $722 $-1 #
+edge $-1 -1 $-1 $1363 0 $1385 2 $1382 $1398 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	1.94725447793919687e-14 
+	spline reversed { ref 206 } I I I I 
+	} 0 0 #
+vertex $-1 -1 $-1 $1392 $1399 #
+straight-curve $-1 -1 $-1 43.8649095049349711 10 -1.5885215843601177 0 10 0 F 0 F 0.5 #
+DXID-attrib $-1 -1 $-1 $-1 $1358 @10 ASM ENTITY @36 8ba687c8-9610-488b-8f51-cf19c8c14d76 #
+spline-surface $-1 -1 $-1 forward { ref 206 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	75.51806995874372319 15 -22.64200618727745962 
+	73.0869516443191003 15 -23.85756534448978172 
+	66.81466639310353628 15 -25.46210343201003923 
+	63.21661128775507166 15 -25.46210343201003923 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 63.21661128775507166 15 -25.46210343201003923 #
+coedge $-1 -1 $-1 $1382 $1373 $1369 $1392 reversed $722 $-1 #
+edge $-1 -1 $-1 $1385 0 $1376 2 $1391 $1400 forward @7 unknown #
+pcurve $-1 -1 $-1 0 forward { exppc nubs 1 open 2 
+	0 1 2 1 
+	0 0.5 
+	2 0.5 
+	6.553922784658807502e-15 
+	spline reversed { ref 212 } I I I I 
+	} 0 0 #
+DXID-attrib $-1 -1 $-1 $-1 $1372 @10 ASM ENTITY @36 a99a4a26-a1dd-45c2-94ba-b92ff91cdb5a #
+spline-surface $-1 -1 $-1 forward { ref 212 } I I I I #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	49.35923689553465721 15 16.59624340753615712 
+	51.93622230882476742 15 19.70807484999969006 
+	59.22957725209867874 15 22.96577339132870321 
+	63.80007968321699252 15 22.96577339132870321 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 49.35923689553465721 15 16.59624340753615712 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	63.21661128775507166 15 -25.46210343201003923 
+	54.56183008840337578 15 -25.46210343201003923 
+	43.8649095049349711 15 -12.43130926669398839 
+	43.8649095049349711 15 -1.588521584360118588 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+point $-1 -1 $-1 43.8649095049349711 15 -1.5885215843601177 #
+intcurve-curve $-1 -1 $-1 forward { exactcur full nubs 2 open 3 
+	0 2 1 1 2 2 
+	43.8649095049349711 15 -1.588521584360118588 
+	43.8649095049349711 15 4.440651835412978699 
+	46.68500674966755071 15 13.48441196507262241 
+	49.35923689553465721 15 16.59624340753615712 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	1 1 
+	0 
+	F 1 F 0 } I I #
+End-of-ACIS-data 

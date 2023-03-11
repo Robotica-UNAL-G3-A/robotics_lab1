@@ -1,0 +1,225 @@
+MODULE Module1
+        CONST robtarget BAcer:=[[-150,0,0],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B0:=[[0,0,0],[1,0,0,0],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B1:=[[0,0,100],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B2:=[[0,-25,100],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B3:=[[0,-50,75],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B4:=[[0,-25,50],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B5:=[[0,-50,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B6:=[[0,-25,0],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget JAcer:=[[-150,-100,100],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J0:=[[0,-100,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J1:=[[0,-150,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J2:=[[0,-150,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J3:=[[0,-125,0],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J4:=[[0,-100,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget JSal_10:=[[-150,-100,25],[1,0,0,0],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget GAcer:=[[-150,-250,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G0:=[[0,-250,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G1:=[[0,-200,100],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G2:=[[0,-200,0],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G3:=[[0,-250,0],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G4:=[[0,-250,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G5:=[[0,-225,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget GSal:=[[-150,-225,25],[1,0,0,0],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST jointtarget HOME:=[[0,0,0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST jointtarget Intermedio:=[[39.820347786,7.402611956,17.639279428,-47.788627471,37.688106161,71.623214618],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget AcerB:=[[-220,49,-30],[0.5,0.5,-0.5,0.5],[-2,1,1,6],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B01:=[[-220.584,48.703,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B02:=[[-195.057,49.117,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B03:=[[-188.931,51.134,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B04:=[[-184.19,55.632,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B05:=[[-182.707,62.22,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B06:=[[-184.944,69.805,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B07:=[[-191.119,75.057,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B08:=[[-182.829,80.672,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B09:=[[-179.887,90.275,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B10:=[[-181.589,98.176,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B11:=[[-186.111,103.841,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B12:=[[-193.38,107.585,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget B13:=[[-220.584,108.703,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget AcerJ_10:=[[-152,109,-45],[0.707106781,0,-0.707106781,0],[-2,-2,-2,6],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J01:=[[-151.929,108.363,-5],[0.5,0.5,-0.5,0.5],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J02:=[[-141.33,109.53,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J03:=[[-128.396,105.251,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J04:=[[-123.582,93.095,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J05:=[[-123.582,48.703,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J06:=[[-144.247,48.703,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J07:=[[-144.247,55.073,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J08:=[[-131.556,55.073,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J09:=[[-131.556,90.032,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J10:=[[-131.848,95.429,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J11:=[[-133.258,99.368,-5],[0.5,0.5,-0.5,0.5],[0,1,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J12:=[[-133.258,99.368,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J13:=[[-136.492,101.775,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J14:=[[-142.399,102.625,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget J15:=[[-151.492002338,100.681001409,-4.999972984],[0.499999988,0.499999986,-0.500000023,0.500000003],[0,-1,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget AcerG_10:=[[-41,105,-30],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G01:=[[-40.973,104.716,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G02:=[[-49.822,108.12,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G03:=[[-60.908,109.87,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G04:=[[-72.553,107.925,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G05:=[[-81.621,102.042,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G06:=[[-87.432,92.172,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G07:=[[-89.45,78.655,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G08:=[[-87.407,65.672,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G09:=[[-81.573,55.851,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G10:=[[-72.578,49.773,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G11:=[[-60.86,47.634,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G12:=[[-49.725,49.287,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G13:=[[-41.216,52.787,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G14:=[[-41.556,62.415,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G15:=[[-49.482,57.358,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G16:=[[-55.049,55.34,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G17:=[[-61.783,54.538,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G18:=[[-75.787,61.053,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G19:=[[-81.135,78.411,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G20:=[[-79.725,88.963,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G21:=[[-75.641,96.596,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G22:=[[-69.417,101.337,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G23:=[[-61.2,102.966,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G24:=[[-48.85,101.021,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G25:=[[-48.85,85.51,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G26:=[[-62.756,85.51,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G27:=[[-62.756,78.509,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget G28:=[[-40.973,78.509,-5],[0.5,0.5,-0.5,0.5],[0,-2,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget NewIntermedio_10:=[[-125,7,-240],[0.5,0.5,-0.5,0.5],[0,1,-1,1],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Target_10:=[[-75,180,-490],[0.5,0.5,-0.5,0.5],[0,0,0,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+!***********************************************************
+    !
+    ! Module:  Module1
+    !
+    ! Description:
+    !   <Insert description here>
+    !
+    ! Author: user
+    !
+    ! Version: 1.0
+    !
+    !***********************************************************
+    
+    
+    !***********************************************************
+    !
+    ! Procedure main
+    !
+    !   This is the entry point of your program
+    !
+    !***********************************************************
+    PROC main()
+        HomeP;
+        AcerInter;
+        AcerYLetras;
+        AcerInter;
+        HomeP;
+        
+    ENDPROC
+    
+    PROC AcerYLetras()
+        MoveL BAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B1,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B2,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B3,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B4,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B5,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B6,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL B0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL BAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL JAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J1,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J2,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J3,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL J4,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL JSal_10,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL GAcer,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G0,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G1,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G2,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G3,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G4,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL G5,v1000,z100,TMarcador\WObj:=Tablero;
+        MoveL GSal,v1000,z100,TMarcador\WObj:=Tablero;
+    ENDPROC
+    PROC HomeP()
+        MoveAbsJ HOME,v1000,z100,TMarcador\WObj:=Tablero;
+    ENDPROC
+    PROC AcerInter()
+        MoveAbsJ Intermedio,v1000,z100,TMarcador\WObj:=NewPlaca;
+    ENDPROC
+    PROC B()
+        MoveL AcerB,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B01,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B02,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B03,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B04,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B05,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B06,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B07,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B08,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B09,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B10,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B11,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B12,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B13,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL B01,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL AcerB,v1000,z100,TMarcador\WObj:=NewPlaca;
+    ENDPROC
+    PROC J()
+        MoveL AcerJ_10,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J01,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J02,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J03,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J04,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J05,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J06,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J07,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J08,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J09,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J10,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J11,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J12,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J13,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J14,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J15,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL J01,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL AcerJ_10,v1000,z100,TMarcador\WObj:=NewPlaca;
+    ENDPROC
+    PROC G()
+        MoveL AcerG_10,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G01,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G02,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G03,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G04,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G05,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G06,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G07,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G08,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G09,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G10,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G11,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G12,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G13,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G14,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G15,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G16,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G17,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G18,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G19,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G20,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G21,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G22,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G23,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G24,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G25,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G26,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G27,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G28,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL G01,v1000,z100,TMarcador\WObj:=NewPlaca;
+        MoveL AcerG_10,v1000,z100,TMarcador\WObj:=NewPlaca;
+    ENDPROC
+    PROC Path_10()
+        MoveL AcerB,v1000,z100,TMarcador\WObj:=NewPlaca;
+    ENDPROC
+ENDMODULE
